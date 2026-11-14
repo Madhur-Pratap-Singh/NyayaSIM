@@ -1,0 +1,99 @@
+{
+  "case_id": "CASE_008",
+  "case_title": "Defective Television and Conflicting Purchase Records",
+  "fictional_case": true,
+
+  "expected_checklist": [
+    {
+      "document_id": "DOC_01",
+      "document_name": "Receipt or Purchase Invoice",
+      "expected_status": "Present"
+    },
+    {
+      "document_id": "DOC_02",
+      "document_name": "Warranty or Guarantee Document",
+      "expected_status": "Present"
+    },
+    {
+      "document_id": "DOC_03",
+      "document_name": "Defect Notice",
+      "expected_status": "Present"
+    },
+    {
+      "document_id": "DOC_04",
+      "document_name": "Merchant Reply",
+      "expected_status": "Present"
+    }
+  ],
+
+  "expected_missing_documents": [],
+  "expected_unclear_documents": [],
+
+  "additional_evidence_concerns": [
+    {
+      "document_name": "Seller's Internal Purchase Record",
+      "expected_status": "Present",
+      "reason": "The record is available but mentions a different purchase date from the claimant's invoice."
+    },
+    {
+      "document_name": "Delivery Confirmation",
+      "expected_status": "Missing",
+      "reason": "The delivery confirmation has not been provided."
+    },
+    {
+      "document_name": "Television Service Report",
+      "expected_status": "Present",
+      "reason": "The report is available and requires examination to understand the repair possibilities."
+    }
+  ],
+
+  "expected_defects": [
+    {
+      "defect_id": "DEFECT_001",
+      "type": "Conflicting Purchase Dates",
+      "severity": "High",
+      "description": "The claimant states that the purchase occurred on 5 January 2026, while the seller's internal record mentions 12 January 2026."
+    },
+    {
+      "defect_id": "DEFECT_002",
+      "type": "Missing Supporting Evidence",
+      "severity": "Medium",
+      "description": "Delivery confirmation is missing."
+    },
+    {
+      "defect_id": "DEFECT_003",
+      "type": "Unsupported Legal Proposition",
+      "severity": "High",
+      "description": "The claimant states that a consumer can always demand a full refund instead of repair, regardless of the nature of the defect."
+    },
+    {
+      "defect_id": "DEFECT_004",
+      "type": "Disputed Remedy",
+      "severity": "Medium",
+      "description": "The claimant requests a refund while the respondent offers repair. The appropriate remedy requires examination of the facts and applicable law."
+    }
+  ],
+
+  "citation_verdicts": [],
+
+  "expected_review": {
+    "document_completeness": "Complete",
+    "requires_additional_document": true,
+    "requires_human_review": true,
+    "reason": "The four standard complaint documents are present, but the conflicting purchase dates, missing delivery confirmation and disputed remedy require further examination."
+  },
+
+  "expected_outcome": {
+    "status": "Further Evidence and Legal Review Required",
+    "recommended_action": "Verify the purchase date, request delivery confirmation and examine the service report and available remedies under applicable law.",
+    "automatic_decision_allowed": false
+  },
+
+  "testing_notes": [
+    "All four standard checklist documents should be marked Present.",
+    "The conflicting purchase dates must be identified.",
+    "The missing delivery confirmation must be identified as additional evidence.",
+    "The system must flag the unsupported absolute refund claim.",
+    "The system must not automatically decide whether refund or repair is appropriate."
+  ]
+}

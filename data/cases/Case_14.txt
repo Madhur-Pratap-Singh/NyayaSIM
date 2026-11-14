@@ -1,0 +1,59 @@
+
+
+CASE ID: CASE_014
+CASE TITLE: Online Furniture Purchase and Non-Delivery Complaint
+
+CASE TYPE: Consumer Dispute
+CASE STATUS: Pending Review
+CASE DATE: 16 April 2026
+
+CLAIMANT: Harsh Mehta
+RESPONDENT: Urban Living Online Store
+DELIVERY PARTNER: QuickMove Logistics
+
+FACTS OF THE CASE:
+
+Harsh Mehta ordered a study table and chair set online for Rs. 12,400.
+
+The website promised delivery within seven working days.
+
+The payment was completed online, and the order confirmation was received.
+
+After twelve days, the claimant received a message stating that the order had been delivered.
+
+However, he claims that he never received the furniture.
+
+The delivery partner's tracking page shows the status as "Delivered".
+
+The claimant contacted customer support and requested a refund.
+
+RESPONDENT'S VERSION:
+
+Urban Living states that its records show successful delivery.
+
+The delivery partner claims that the package was handed over at the delivery address.
+
+The claimant denies receiving the package and says that no one in his household accepted it.
+
+AVAILABLE DOCUMENTS:
+
+1. Online payment receipt: Present
+2. Order confirmation: Present
+3. Delivery tracking screenshot: Present
+4. Customer complaint: Present
+5. Seller response: Present
+6. Proof of physical delivery: Missing
+7. Recipient signature or OTP record: Missing
+
+PLANTED ISSUES FOR REVIEW:
+
+- Tracking status alone may not establish who actually received the package.
+- The claimant's denial must be compared with delivery records.
+- The seller and delivery partner provide different accounts of the transaction.
+
+EXPECTED REVIEW:
+
+Flag the missing proof of delivery and recipient confirmation. Identify the conflicting statements without assuming that either party is automatically correct.
+
+IMPORTANT:
+This is a fictional case created for NyayaSim testing. No final legal finding is assumed.

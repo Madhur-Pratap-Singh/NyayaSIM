@@ -1,0 +1,79 @@
+
+{
+  "case_id": "CASE_010",
+  "case_title": "Misleading Discount Advertisement for a Laptop",
+  "fictional_case": true,
+  "expected_checklist": [
+    {
+      "document_id": "DOC_01",
+      "document_name": "Receipt or Purchase Invoice",
+      "expected_status": "Present",
+      "is_critical": true,
+      "reason": "The purchase invoice is available."
+    },
+    {
+      "document_id": "DOC_02",
+      "document_name": "Warranty or Guarantee Document",
+      "expected_status": "Present",
+      "is_critical": false,
+      "reason": "The warranty document is available."
+    },
+    {
+      "document_id": "DOC_03",
+      "document_name": "Defect Notice",
+      "expected_status": "Present",
+      "is_critical": false,
+      "reason": "The claimant's complaint notice is available."
+    },
+    {
+      "document_id": "DOC_04",
+      "document_name": "Merchant Reply",
+      "expected_status": "Present",
+      "is_critical": false,
+      "reason": "The merchant's response is available."
+    }
+  ],
+  "expected_missing_documents": [
+    "Historical price record"
+  ],
+  "expected_unclear_documents": [],
+  "additional_evidence_concerns": [
+    {
+      "document_name": "Historical price record",
+      "status": "Missing",
+      "reason": "There is no independent record verifying the original advertised price."
+    }
+  ],
+  "expected_defects": [
+    {
+      "defect_id": "DEF_010_01",
+      "type": "Unverified advertising claim",
+      "severity": "High",
+      "description": "The advertised original price of Rs. 1,08,000 has not been independently verified.",
+      "affected_document": "Historical price record"
+    },
+    {
+      "defect_id": "DEF_010_02",
+      "type": "Unsupported conclusion",
+      "severity": "Medium",
+      "description": "Price differences between retailers alone do not establish that the advertisement was misleading.",
+      "affected_document": "Advertisement screenshot"
+    }
+  ],
+  "citation_verdicts": [],
+  "expected_review": {
+    "document_completeness": "Complete",
+    "requires_additional_document": true,
+    "requires_human_review": true,
+    "reason": "The standard checklist is complete, but the advertised original price needs supporting records and further examination."
+  },
+  "expected_outcome": {
+    "status": "Needs Further Review",
+    "recommended_action": "Obtain historical pricing records and examine the exact advertisement wording.",
+    "automatic_decision_allowed": false
+  },
+  "testing_notes": [
+    "Distinguish an allegation of misleading advertising from a verified finding.",
+    "Do not automatically assign responsibility to the manufacturer for the retailer's advertisement."
+  ]
+}

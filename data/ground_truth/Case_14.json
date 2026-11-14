@@ -1,0 +1,87 @@
+
+{
+  "case_id": "CASE_014",
+  "case_title": "Online Furniture Purchase and Non-Delivery Complaint",
+  "fictional_case": true,
+  "expected_checklist": [
+    {
+      "document_id": "DOC_01",
+      "document_name": "Receipt or Purchase Invoice",
+      "expected_status": "Present",
+      "is_critical": true,
+      "reason": "The online payment receipt and order confirmation are available."
+    },
+    {
+      "document_id": "DOC_02",
+      "document_name": "Warranty or Guarantee Document",
+      "expected_status": "Unclear",
+      "is_critical": false,
+      "reason": "The case does not mention whether a warranty document was supplied."
+    },
+    {
+      "document_id": "DOC_03",
+      "document_name": "Defect Notice",
+      "expected_status": "Present",
+      "is_critical": false,
+      "reason": "The claimant's customer complaint is available."
+    },
+    {
+      "document_id": "DOC_04",
+      "document_name": "Merchant Reply",
+      "expected_status": "Present",
+      "is_critical": false,
+      "reason": "The seller's response is available."
+    }
+  ],
+  "expected_missing_documents": [
+    "Proof of physical delivery",
+    "Recipient signature or OTP record"
+  ],
+  "expected_unclear_documents": [
+    "Warranty or guarantee document"
+  ],
+  "additional_evidence_concerns": [
+    {
+      "document_name": "Proof of physical delivery",
+      "status": "Missing",
+      "reason": "The tracking page says delivered, but there is no independent proof of physical handover."
+    },
+    {
+      "document_name": "Recipient signature or OTP record",
+      "status": "Missing",
+      "reason": "No recipient confirmation is provided."
+    }
+  ],
+  "expected_defects": [
+    {
+      "defect_id": "DEF_014_01",
+      "type": "Conflicting delivery evidence",
+      "severity": "High",
+      "description": "The tracking page shows delivery, while the claimant denies receiving the furniture.",
+      "affected_document": "Delivery tracking screenshot"
+    },
+    {
+      "defect_id": "DEF_014_02",
+      "type": "Missing supporting evidence",
+      "severity": "High",
+      "description": "There is no recipient signature, OTP record or other proof confirming who accepted the package.",
+      "affected_document": "Recipient signature or OTP record"
+    }
+  ],
+  "citation_verdicts": [],
+  "expected_review": {
+    "document_completeness": "Incomplete",
+    "requires_additional_document": true,
+    "requires_human_review": true,
+    "reason": "The warranty document is unclear and the delivery confirmation evidence is incomplete."
+  },
+  "expected_outcome": {
+    "status": "Needs Further Review",
+    "recommended_action": "Obtain delivery partner records and recipient confirmation before assessing the non-delivery complaint.",
+    "automatic_decision_allowed": false
+  },
+  "testing_notes": [
+    "Do not treat a tracking status alone as conclusive proof of delivery.",
+    "Compare the claimant's account with the seller's and delivery partner's records."
+  ]
+}

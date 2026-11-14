@@ -1,0 +1,53 @@
+
+CASE ID: CASE_009
+CASE TITLE: Defective Washing Machine and Repeated Repair Failure
+
+CASE TYPE: Consumer Dispute
+CASE STATUS: Pending Review
+CASE DATE: 12 March 2026
+
+CLAIMANT: Riya Malhotra
+RESPONDENT: HomeStyle Appliances
+MANUFACTURER: CleanTech Electronics
+
+FACTS OF THE CASE:
+
+Riya Malhotra purchased a washing machine from HomeStyle Appliances for Rs. 32,000 on 12 March 2026.
+
+Within three weeks, the machine started making unusual noises and stopped completing wash cycles.
+
+The claimant contacted the seller twice and requested a repair. A technician visited once but did not provide a written inspection report.
+
+The machine developed the same problem again after the repair.
+
+The claimant says that the seller promised a replacement but later refused.
+
+RESPONDENT'S VERSION:
+
+The seller states that the machine was working properly when delivered.
+
+The seller claims that the problem may have resulted from improper installation or overloading.
+
+The manufacturer says that no confirmed manufacturing defect has been established.
+
+AVAILABLE DOCUMENTS:
+
+1. Purchase invoice: Present
+2. Warranty card: Present
+3. Complaint email: Present
+4. Seller reply: Present
+5. Technician inspection report: Missing
+6. Repair receipt: Unclear
+
+PLANTED ISSUES FOR REVIEW:
+
+- Repeated repair failure is alleged but not fully documented.
+- The claimant says a replacement was promised, but no written proof is available.
+- The respondent suggests misuse without providing supporting technical evidence.
+
+EXPECTED REVIEW:
+
+Check whether the invoice, warranty and communications support the complaint. Flag the missing technician report and verify the alleged replacement promise before drawing conclusions.
+
+IMPORTANT:
+This is a fictional case created for NyayaSim testing. No final legal finding is assumed.

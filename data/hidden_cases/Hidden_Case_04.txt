@@ -1,0 +1,52 @@
+
+HIDDEN TEST CASE 04
+Case Title: Water Purifier and Unsupported Performance Claim
+
+IMPORTANT:
+This is a fictional test case created only for NyayaSim evaluation.
+
+CLAIMANT:
+Name: Kabir Sharma
+Age: 41 years
+Location: Jaipur, Rajasthan, India
+
+RESPONDENT:
+PureLife Water Systems
+
+CASE FACTS:
+1. The claimant purchased a water purifier for Rs. 18,500.
+2. The product advertisement stated that it removes 99.9% of impurities.
+3. The claimant noticed an unusual taste in the purified water after three months.
+4. The claimant contacted customer support and requested an inspection.
+5. The respondent stated that the purifier was operating normally.
+6. The claimant believes the advertisement made an exaggerated performance claim.
+7. The claimant has not obtained an independent water-quality test.
+8. The respondent has not supplied a recent laboratory performance report for the specific unit.
+9. The claimant has requested a refund.
+
+AVAILABLE DOCUMENTS:
+1. Purchase invoice: Present.
+2. Warranty document: Present.
+3. Written complaint: Present.
+4. Respondent's reply: Present.
+5. Advertisement screenshot: Present.
+6. Independent water-quality test: Missing.
+7. Product-specific laboratory report: Missing.
+8. Maintenance record: Unclear.
+
+POSSIBLE ISSUES TO IDENTIFY:
+1. Whether the advertised performance claim is misleading.
+2. Whether the purifier failed to perform as advertised.
+3. Whether the unusual taste establishes a product defect.
+4. Whether independent testing is required.
+5. Whether a refund is supported by available evidence and applicable law.
+
+TESTING INSTRUCTIONS:
+1. Separate the claimant's observations from proven technical facts.
+2. Identify missing and unclear evidence.
+3. Use only verified legal provisions from the local legal corpus.
+4. Do not invent technical findings or legal citations.
+5. Consider both parties' explanations fairly.
+
+EXPECTED SYSTEM BEHAVIOUR:
+NyayaSim should identify the need for independent water-quality testing, distinguish an unusual taste from proven unsafe water, and avoid reaching an unsupported conclusion about the advertisement or product.

@@ -1,0 +1,85 @@
+
+{
+  "case_id": "CASE_012",
+  "case_title": "Mobile Phone Battery Swelling and Safety Complaint",
+  "fictional_case": true,
+  "expected_checklist": [
+    {
+      "document_id": "DOC_01",
+      "document_name": "Receipt or Purchase Invoice",
+      "expected_status": "Present",
+      "is_critical": true,
+      "reason": "The purchase invoice is available."
+    },
+    {
+      "document_id": "DOC_02",
+      "document_name": "Warranty or Guarantee Document",
+      "expected_status": "Present",
+      "is_critical": false,
+      "reason": "The warranty document is available."
+    },
+    {
+      "document_id": "DOC_03",
+      "document_name": "Defect Notice",
+      "expected_status": "Present",
+      "is_critical": false,
+      "reason": "The claimant's complaint email is available."
+    },
+    {
+      "document_id": "DOC_04",
+      "document_name": "Merchant Reply",
+      "expected_status": "Present",
+      "is_critical": false,
+      "reason": "The seller's response is available."
+    }
+  ],
+  "expected_missing_documents": [
+    "Battery safety inspection report",
+    "Device usage history"
+  ],
+  "expected_unclear_documents": [],
+  "additional_evidence_concerns": [
+    {
+      "document_name": "Battery safety inspection report",
+      "status": "Missing",
+      "reason": "No technical report establishes the cause of battery swelling."
+    },
+    {
+      "document_name": "Device usage history",
+      "status": "Missing",
+      "reason": "The case does not provide records that could help assess the respondent's overheating allegation."
+    }
+  ],
+  "expected_defects": [
+    {
+      "defect_id": "DEF_012_01",
+      "type": "Unsupported technical conclusion",
+      "severity": "High",
+      "description": "The claimant alleges a defective battery, but the cause has not been established by technical examination.",
+      "affected_document": "Battery safety inspection report"
+    },
+    {
+      "defect_id": "DEF_012_02",
+      "type": "Unsupported respondent allegation",
+      "severity": "Medium",
+      "description": "The respondent suggests overheating without providing supporting technical evidence.",
+      "affected_document": "Device usage history"
+    }
+  ],
+  "citation_verdicts": [],
+  "expected_review": {
+    "document_completeness": "Complete",
+    "requires_additional_document": true,
+    "requires_human_review": true,
+    "reason": "All four standard checklist documents are present, but technical evidence is required to assess the battery issue and competing explanations."
+  },
+  "expected_outcome": {
+    "status": "Needs Further Review",
+    "recommended_action": "Arrange an appropriate technical inspection and examine available device usage records.",
+    "automatic_decision_allowed": false
+  },
+  "testing_notes": [
+    "Do not treat battery swelling as automatic proof of manufacturer liability.",
+    "Do not accept the overheating allegation without supporting evidence."
+  ]
+}

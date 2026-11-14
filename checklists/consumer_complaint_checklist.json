@@ -1,0 +1,58 @@
+
+{
+  "checklist_id": "NYAYA_CHECK_001",
+  "checklist_name": "Standard Consumer Complaint Checklist",
+  "project": "NyayaSim",
+  "applicable_law": "Consumer Protection Act, 2019",
+  "purpose": "To check the availability and completeness of documents in a fictional consumer complaint.",
+  "status_options": [
+    "Present",
+    "Missing",
+    "Unclear"
+  ],
+  "checklist_items": [
+    {
+      "item_id": "DOC_01",
+      "document_name": "Receipt or Purchase Invoice",
+      "description": "Proof of purchase showing the transaction between consumer and seller.",
+      "importance": "Critical",
+      "is_mandatory": true,
+      "status": "Unclear"
+    },
+    {
+      "item_id": "DOC_02",
+      "document_name": "Warranty or Guarantee Document",
+      "description": "Document containing warranty or guarantee conditions, if applicable.",
+      "importance": "Important",
+      "is_mandatory": false,
+      "status": "Unclear"
+    },
+    {
+      "item_id": "DOC_03",
+      "document_name": "Defect Notice",
+      "description": "Evidence showing that the consumer informed the seller about the defect or problem.",
+      "importance": "Important",
+      "is_mandatory": false,
+      "status": "Unclear"
+    },
+    {
+      "item_id": "DOC_04",
+      "document_name": "Merchant Reply",
+      "description": "Response provided by the seller or service provider regarding the complaint, if available.",
+      "importance": "Important",
+      "is_mandatory": false,
+      "status": "Unclear"
+    }
+  ],
+  "validation_rules": {
+    "allowed_status_values": [
+      "Present",
+      "Missing",
+      "Unclear"
+    ],
+    "critical_missing_action": "Flag for early review",
+    "unclear_document_action": "Request human review",
+    "important_note": "Missing documents should be flagged for review and should not automatically establish that a legal claim is invalid."
+  },
+  "disclaimer": "This checklist is a preliminary document review aid and does not replace legal advice or judicial decision-making."
+}

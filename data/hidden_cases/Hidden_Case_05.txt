@@ -1,0 +1,54 @@
+
+HIDDEN TEST CASE 05
+Case Title: Online Furniture Order and Non-Delivery
+
+IMPORTANT:
+This is a fictional test case created only for NyayaSim evaluation.
+
+CLAIMANT:
+Name: Neha Verma
+Age: 29 years
+Location: Amritsar, Punjab, India
+
+RESPONDENT:
+HomeStyle Online Retail
+
+CASE FACTS:
+1. The claimant ordered a study table through the respondent's online store for Rs. 8,500.
+2. The claimant paid the full amount online.
+3. The website showed an estimated delivery period of seven days.
+4. The claimant did not receive the study table within the estimated period.
+5. The claimant contacted customer support several times.
+6. The respondent stated that the order had been dispatched.
+7. The respondent provided a tracking number, but the tracking page showed no confirmed delivery.
+8. The claimant requested a refund.
+9. The respondent stated that the matter was being investigated by its delivery partner.
+10. No proof of delivery has been supplied.
+
+AVAILABLE DOCUMENTS:
+1. Online order confirmation: Present.
+2. Payment receipt: Present.
+3. Warranty document: Unclear.
+4. Written complaint: Present.
+5. Respondent's reply: Present.
+6. Dispatch confirmation: Present.
+7. Proof of delivery: Missing.
+8. Delivery partner investigation report: Missing.
+
+POSSIBLE ISSUES TO IDENTIFY:
+1. Whether the order was actually delivered.
+2. Whether dispatch confirmation proves delivery.
+3. Whether the respondent has fulfilled its delivery obligations.
+4. Whether the claimant is entitled to seek a refund.
+5. Whether further investigation or documents are necessary.
+
+TESTING INSTRUCTIONS:
+1. Distinguish dispatch from confirmed delivery.
+2. Identify all missing and unclear documents.
+3. Use only verified legal provisions from the local legal corpus.
+4. Do not invent legal citations.
+5. Assess both parties' statements and available records.
+6. Do not assume that a tracking number proves successful delivery.
+
+EXPECTED SYSTEM BEHAVIOUR:
+NyayaSim should recognise that dispatch confirmation is not necessarily proof of delivery, identify the missing proof of delivery, assess the refund request under verified law and explain what further evidence is required.

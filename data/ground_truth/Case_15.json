@@ -1,0 +1,86 @@
+
+{
+  "case_id": "CASE_015",
+  "case_title": "Air Conditioner Installation Failure and Refund Demand",
+  "fictional_case": true,
+  "expected_checklist": [
+    {
+      "document_id": "DOC_01",
+      "document_name": "Receipt or Purchase Invoice",
+      "expected_status": "Present",
+      "is_critical": true,
+      "reason": "The purchase invoice is available."
+    },
+    {
+      "document_id": "DOC_02",
+      "document_name": "Warranty or Guarantee Document",
+      "expected_status": "Present",
+      "is_critical": false,
+      "reason": "The warranty card is available."
+    },
+    {
+      "document_id": "DOC_03",
+      "document_name": "Defect Notice",
+      "expected_status": "Present",
+      "is_critical": false,
+      "reason": "The claimant's complaint email is available."
+    },
+    {
+      "document_id": "DOC_04",
+      "document_name": "Merchant Reply",
+      "expected_status": "Present",
+      "is_critical": false,
+      "reason": "The seller's response is available."
+    }
+  ],
+  "expected_missing_documents": [
+    "Second inspection report"
+  ],
+  "expected_unclear_documents": [
+    "Communication regarding another inspection"
+  ],
+  "additional_evidence_concerns": [
+    {
+      "document_name": "Second inspection report",
+      "status": "Missing",
+      "reason": "No report is available for the proposed second inspection."
+    },
+    {
+      "document_name": "Communication regarding another inspection",
+      "status": "Unclear",
+      "reason": "The claimant denies refusing another inspection, but the communication record is unclear."
+    }
+  ],
+  "expected_defects": [
+    {
+      "defect_id": "DEF_015_01",
+      "type": "Conflicting factual accounts",
+      "severity": "High",
+      "description": "The seller says another inspection was offered and refused, while the claimant denies refusing it.",
+      "affected_document": "Communication regarding another inspection"
+    },
+    {
+      "defect_id": "DEF_015_02",
+      "type": "Unsupported technical conclusion",
+      "severity": "Medium",
+      "description": "The cause of the cooling and water leakage problems has not been established through a second inspection.",
+      "affected_document": "Second inspection report"
+    }
+  ],
+  "citation_verdicts": [],
+  "expected_review": {
+    "document_completeness": "Complete",
+    "requires_additional_document": true,
+    "requires_human_review": true,
+    "reason": "All four standard checklist documents are present, but the second inspection report and communication records require further examination."
+  },
+  "expected_outcome": {
+    "status": "Needs Further Review",
+    "recommended_action": "Obtain the second inspection report and verify communication about the proposed inspection.",
+    "automatic_decision_allowed": false
+  },
+  "testing_notes": [
+    "Distinguish a failed repair from proof of a specific manufacturing defect.",
+    "Do not assume that either party's account of the proposed inspection is correct without supporting records."
+  ]
+}

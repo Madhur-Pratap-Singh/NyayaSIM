@@ -1,0 +1,93 @@
+{
+  "case_id": "CASE_005",
+  "case_title": "Defective Air Conditioner and Contradictory Statements",
+  "fictional_case": true,
+
+  "expected_checklist": [
+    {
+      "document_id": "DOC_01",
+      "document_name": "Receipt or Purchase Invoice",
+      "expected_status": "Present"
+    },
+    {
+      "document_id": "DOC_02",
+      "document_name": "Warranty or Guarantee Document",
+      "expected_status": "Present"
+    },
+    {
+      "document_id": "DOC_03",
+      "document_name": "Defect Notice",
+      "expected_status": "Present"
+    },
+    {
+      "document_id": "DOC_04",
+      "document_name": "Merchant Reply",
+      "expected_status": "Present"
+    }
+  ],
+
+  "expected_missing_documents": [],
+  "expected_unclear_documents": [],
+
+  "additional_evidence_concerns": [
+    {
+      "document_name": "Complete Technical Inspection Report",
+      "expected_status": "Missing",
+      "reason": "The complete technical inspection report has not been provided."
+    },
+    {
+      "document_name": "Technician Visit Record",
+      "expected_status": "Present",
+      "reason": "A visit record exists, but it does not establish the complete inspection findings."
+    }
+  ],
+
+  "expected_defects": [
+    {
+      "defect_id": "DEFECT_001",
+      "type": "Contradictory Statements",
+      "severity": "High",
+      "description": "The claimant says the technician did not properly inspect the product, while the respondent says the inspection was completed."
+    },
+    {
+      "defect_id": "DEFECT_002",
+      "type": "Disputed Factual Claim",
+      "severity": "Medium",
+      "description": "The claimant alleges an original manufacturing defect, but this has not been independently established."
+    },
+    {
+      "defect_id": "DEFECT_003",
+      "type": "Unsupported Defence",
+      "severity": "Medium",
+      "description": "The respondent claims that the product was functioning normally, but conclusive supporting evidence is not available."
+    },
+    {
+      "defect_id": "DEFECT_004",
+      "type": "Missing Supporting Evidence",
+      "severity": "High",
+      "description": "The complete technical inspection report is missing."
+    }
+  ],
+
+  "citation_verdicts": [],
+
+  "expected_review": {
+    "document_completeness": "Complete",
+    "requires_additional_document": true,
+    "requires_human_review": true,
+    "reason": "The four standard complaint documents are present, but the missing technical report and conflicting statements require further examination."
+  },
+
+  "expected_outcome": {
+    "status": "Further Evidence Required",
+    "recommended_action": "Obtain the complete technical inspection report and examine both parties' statements before reaching a conclusion.",
+    "automatic_decision_allowed": false
+  },
+
+  "testing_notes": [
+    "All four standard checklist documents should be marked Present.",
+    "The missing technical report must be identified as additional evidence.",
+    "The system must identify contradictions between claimant and respondent.",
+    "The system must not automatically accept either party's version."
+  ]
+}

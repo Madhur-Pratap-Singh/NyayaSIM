@@ -1,0 +1,86 @@
+
+{
+  "case_id": "CASE_009",
+  "case_title": "Defective Washing Machine and Repeated Repair Failure",
+  "fictional_case": true,
+  "expected_checklist": [
+    {
+      "document_id": "DOC_01",
+      "document_name": "Receipt or Purchase Invoice",
+      "expected_status": "Present",
+      "is_critical": true,
+      "reason": "The purchase invoice is available."
+    },
+    {
+      "document_id": "DOC_02",
+      "document_name": "Warranty or Guarantee Document",
+      "expected_status": "Present",
+      "is_critical": false,
+      "reason": "The warranty card is available."
+    },
+    {
+      "document_id": "DOC_03",
+      "document_name": "Defect Notice",
+      "expected_status": "Present",
+      "is_critical": false,
+      "reason": "The claimant's complaint email is available."
+    },
+    {
+      "document_id": "DOC_04",
+      "document_name": "Merchant Reply",
+      "expected_status": "Present",
+      "is_critical": false,
+      "reason": "The seller's response is available."
+    }
+  ],
+  "expected_missing_documents": [
+    "Technician inspection report"
+  ],
+  "expected_unclear_documents": [
+    "Repair receipt"
+  ],
+  "additional_evidence_concerns": [
+    {
+      "document_name": "Technician inspection report",
+      "status": "Missing",
+      "reason": "The technician visited but no written inspection report was provided."
+    },
+    {
+      "document_name": "Repair receipt",
+      "status": "Unclear",
+      "reason": "The case mentions a repair but does not establish whether a repair receipt exists."
+    }
+  ],
+  "expected_defects": [
+    {
+      "defect_id": "DEF_009_01",
+      "type": "Missing technical evidence",
+      "severity": "Medium",
+      "description": "Repeated repair failure is alleged without a written technician report.",
+      "affected_document": "Technician inspection report"
+    },
+    {
+      "defect_id": "DEF_009_02",
+      "type": "Unsupported factual claim",
+      "severity": "Medium",
+      "description": "The claimant says a replacement was promised, but written proof is unavailable.",
+      "affected_document": "Replacement communication"
+    }
+  ],
+  "citation_verdicts": [],
+  "expected_review": {
+    "document_completeness": "Complete",
+    "requires_additional_document": true,
+    "requires_human_review": true,
+    "reason": "All four standard checklist documents are present, but the technical inspection report and repair records need further review."
+  },
+  "expected_outcome": {
+    "status": "Needs Further Review",
+    "recommended_action": "Obtain the technician inspection report and verify the alleged replacement promise.",
+    "automatic_decision_allowed": false
+  },
+  "testing_notes": [
+    "Check whether the system distinguishes standard checklist completeness from additional evidence sufficiency.",
+    "Do not treat repeated repair failure as automatic proof of manufacturer liability."
+  ]
+}

@@ -1,0 +1,225 @@
+
+{
+  "act_name": "Consumer Protection Act, 2019",
+  "act_number": "35 of 2019",
+  "country": "India",
+  "enactment_date": "2019-08-09",
+  "act_type": "Central Act",
+  "source": "India Code - Consumer Protection Act, 2019",
+  "project": "NyayaSim",
+  "purpose": "A local legal reference corpus for checking consumer dispute claims, evidence and legal citations.",
+  "important_note": "This corpus contains simplified summaries for project testing. Legal citations and exact statutory wording must be checked against the official Act.",
+  "total_units": 30,
+  "legal_units": [
+    {
+      "section_id": "CPA_001",
+      "section_number": 1,
+      "title": "Short title, extent, commencement and application",
+      "chapter": 1,
+      "summary": "Provides the short title, territorial extent, commencement and application of the Act."
+    },
+    {
+      "section_id": "CPA_002",
+      "section_number": 2,
+      "title": "Definitions",
+      "chapter": 1,
+      "summary": "Defines important terms used throughout the Consumer Protection Act, 2019."
+    },
+    {
+      "section_id": "CPA_003",
+      "section_number": 3,
+      "title": "Central Consumer Protection Council",
+      "chapter": 2,
+      "summary": "Provides for the establishment of the Central Consumer Protection Council."
+    },
+    {
+      "section_id": "CPA_010",
+      "section_number": 10,
+      "title": "Establishment of Central Consumer Protection Authority",
+      "chapter": 3,
+      "summary": "Provides for the establishment of the Central Consumer Protection Authority."
+    },
+    {
+      "section_id": "CPA_018",
+      "section_number": 18,
+      "title": "Powers and functions of Central Authority",
+      "chapter": 3,
+      "summary": "Describes the powers and functions of the Central Consumer Protection Authority."
+    },
+    {
+      "section_id": "CPA_020",
+      "section_number": 20,
+      "title": "Power of Central Authority to recall goods or withdraw services",
+      "chapter": 3,
+      "summary": "Deals with the authority's power to recall dangerous or unsafe goods and withdraw services."
+    },
+    {
+      "section_id": "CPA_021",
+      "section_number": 21,
+      "title": "Power of Central Authority to issue directions and penalties against false or misleading advertisements",
+      "chapter": 3,
+      "summary": "Deals with directions and penalties relating to false or misleading advertisements."
+    },
+    {
+      "section_id": "CPA_028",
+      "section_number": 28,
+      "title": "Establishment of District Commission",
+      "chapter": 4,
+      "summary": "Provides for the establishment of District Consumer Disputes Redressal Commissions."
+    },
+    {
+      "section_id": "CPA_034",
+      "section_number": 34,
+      "title": "Jurisdiction of District Commission",
+      "chapter": 4,
+      "summary": "Deals with the jurisdiction of the District Commission."
+    },
+    {
+      "section_id": "CPA_035",
+      "section_number": 35,
+      "title": "Manner in which complaint shall be made",
+      "chapter": 4,
+      "summary": "Explains how a consumer complaint may be filed before the District Commission."
+    },
+    {
+      "section_id": "CPA_036",
+      "section_number": 36,
+      "title": "Proceedings before District Commission",
+      "chapter": 4,
+      "summary": "Deals with proceedings conducted before the District Commission."
+    },
+    {
+      "section_id": "CPA_037",
+      "section_number": 37,
+      "title": "Reference to mediation",
+      "chapter": 4,
+      "summary": "Provides for referring suitable consumer disputes to mediation."
+    },
+    {
+      "section_id": "CPA_038",
+      "section_number": 38,
+      "title": "Procedure on admission of complaint",
+      "chapter": 4,
+      "summary": "Describes the procedure followed after admission of a consumer complaint."
+    },
+    {
+      "section_id": "CPA_039",
+      "section_number": 39,
+      "title": "Findings of District Commission",
+      "chapter": 4,
+      "summary": "Deals with the findings and reliefs that may be ordered by the District Commission."
+    },
+    {
+      "section_id": "CPA_040",
+      "section_number": 40,
+      "title": "Review by District Commission",
+      "chapter": 4,
+      "summary": "Provides for review of certain orders by the District Commission."
+    },
+    {
+      "section_id": "CPA_041",
+      "section_number": 41,
+      "title": "Appeal against order of District Commission",
+      "chapter": 4,
+      "summary": "Deals with appeals against orders of the District Commission."
+    },
+    {
+      "section_id": "CPA_047",
+      "section_number": 47,
+      "title": "Jurisdiction of State Commission",
+      "chapter": 4,
+      "summary": "Describes the jurisdiction of the State Consumer Disputes Redressal Commission."
+    },
+    {
+      "section_id": "CPA_049",
+      "section_number": 49,
+      "title": "Procedure applicable to State Commission",
+      "chapter": 4,
+      "summary": "Deals with procedural provisions applicable to the State Commission."
+    },
+    {
+      "section_id": "CPA_051",
+      "section_number": 51,
+      "title": "Appeal to National Commission",
+      "chapter": 4,
+      "summary": "Provides for appeals to the National Consumer Disputes Redressal Commission."
+    },
+    {
+      "section_id": "CPA_058",
+      "section_number": 58,
+      "title": "Jurisdiction of National Commission",
+      "chapter": 4,
+      "summary": "Describes the jurisdiction of the National Commission."
+    },
+    {
+      "section_id": "CPA_059",
+      "section_number": 59,
+      "title": "Procedure applicable to National Commission",
+      "chapter": 4,
+      "summary": "Deals with the procedure applicable to the National Commission."
+    },
+    {
+      "section_id": "CPA_061",
+      "section_number": 61,
+      "title": "Power to set aside ex parte orders",
+      "chapter": 4,
+      "summary": "Provides the National Commission with power to set aside certain ex parte orders."
+    },
+    {
+      "section_id": "CPA_069",
+      "section_number": 69,
+      "title": "Limitation period",
+      "chapter": 4,
+      "summary": "Provides the limitation period for admitting consumer complaints."
+    },
+    {
+      "section_id": "CPA_071",
+      "section_number": 71,
+      "title": "Enforcement of orders",
+      "chapter": 4,
+      "summary": "Deals with enforcement of orders passed under the Act."
+    },
+    {
+      "section_id": "CPA_082",
+      "section_number": 82,
+      "title": "Application of Chapter",
+      "chapter": 6,
+      "summary": "Specifies the application of the provisions of the product liability chapter"
+    },
+    {
+      "section_id": "CPA_083",
+      "section_number": 83,
+      "title": "Action for product liability",
+      "chapter": 6,
+      "summary": "Provides for actions relating to product liability claims."
+    },
+    {
+      "section_id": "CPA_084",
+      "section_number": 84,
+      "title": "Liability of product manufacturer",
+      "chapter": 6,
+      "summary": "Deals with circumstances in which a product manufacturer may be liable."
+    },
+    {
+      "section_id": "CPA_085",
+      "section_number": 85,
+      "title": "Liability of product service provider",
+      "chapter": 6,
+      "summary": "Deals with circumstances in which a product service provider may be liable."
+    },
+    {
+      "section_id": "CPA_086",
+      "section_number": 86,
+      "title": "Liability of product seller",
+      "chapter": 6,
+      "summary": "Deals with circumstances in which a product seller may be liable."
+    },
+    {
+      "section_id": "CPA_087",
+      "section_number": 87,
+      "title": "Exceptions to product liability action",
+      "chapter": 6,
+      "summary": "Describes exceptions to product liability actions under the Act."
+    }
+  ]
+}

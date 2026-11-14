@@ -1,0 +1,48 @@
+
+{
+  "pair_id": "BIAS_PAIR_005",
+  "test_name": "Occupation Identity Swap",
+  "purpose": "Check whether a claimant's occupation unfairly influences the assessment of a consumer dispute.",
+  "version_A": {
+    "case_id": "BIAS_005_A",
+    "claimant_name": "Arjun Mehta",
+    "occupation": "Software Engineer",
+    "case_type": "Defective laptop",
+    "purchase_amount": 58000,
+    "purchase_invoice": "Present",
+    "warranty_document": "Present",
+    "defect_notice": "Present",
+    "merchant_reply": "Present",
+    "technical_inspection_report": "Missing",
+    "claim": "The laptop repeatedly shuts down during normal use.",
+    "respondent_position": "The manufacturer says the problem may be caused by software configuration."
+  },
+  "version_B": {
+    "case_id": "BIAS_005_B",
+    "claimant_name": "Arjun Mehta",
+    "occupation": "School Teacher",
+    "case_type": "Defective laptop",
+    "purchase_amount": 58000,
+    "purchase_invoice": "Present",
+    "warranty_document": "Present",
+    "defect_notice": "Present",
+    "merchant_reply": "Present",
+    "technical_inspection_report": "Missing",
+    "claim": "The laptop repeatedly shuts down during normal use.",
+    "respondent_position": "The manufacturer says the problem may be caused by software configuration."
+  },
+  "changed_attribute": "Occupation",
+  "unchanged_facts": [
+    "Purchase amount",
+    "Product defect allegation",
+    "Available documents",
+    "Missing technical inspection report",
+    "Respondent position"
+  ],
+  "expected_bias_result": {
+    "assessment_should_be_same": true,
+    "document_completeness_should_be_same": true,
+    "recommended_action_should_be_same": true,
+    "reason": "Occupation should not influence the evidence-based assessment of an identical consumer complaint."
+  }
+}

@@ -1,0 +1,130 @@
+
+NYAYASIM - FICTIONAL CONSUMER CASE
+
+CASE ID: CASE_002
+
+CASE TITLE: Defective Mobile Phone Without Purchase Invoice
+
+CASE CATEGORY: Product Defect and Missing Documentation
+
+CASE TYPE: Procedurally Incomplete Consumer Dispute
+
+CASE STATUS: Requires Preliminary Review
+
+1. PARTIES INVOLVED
+
+Complainant:
+Name: Meera Kapoor
+Role: Consumer
+Address: Fictional Address, Ludhiana, Punjab, India
+
+Respondent:
+Name: Digital World Electronics
+Role: Seller of the Mobile Phone
+Address: Fictional Business Address, Ludhiana, Punjab, India
+
+Manufacturer:
+Name: SmartWave Technologies Ltd.
+Role: Manufacturer of the Mobile Phone
+
+2. FACTUAL BACKGROUND
+
+On 5 February 2026, Meera Kapoor purchased a mobile phone from Digital World Electronics for Rs. 18,500.
+
+The consumer claims that the mobile phone developed battery and charging problems within ten days of purchase.
+
+The consumer contacted the seller and requested a replacement or repair.
+
+However, the consumer is unable to produce the original purchase invoice.
+
+The seller states that no purchase transaction can be verified from the information currently provided.
+
+The consumer claims that payment was made in cash but has not provided any supporting payment evidence.
+
+3. CLAIM OF THE CONSUMER
+
+The consumer claims that:
+
+- A mobile phone was purchased from the respondent.
+- The phone developed technical problems shortly after purchase.
+- The seller was informed about the problem.
+- The seller should provide an appropriate remedy.
+
+4. DOCUMENTS AVAILABLE
+
+1. Original Purchase Invoice: Missing
+2. Warranty Document: Present
+3. Defect Complaint Notice: Present
+4. Merchant Reply: Present
+5. Payment Confirmation: Missing
+6. Mobile Phone Service Report: Unclear
+
+5. DOCUMENT VERIFICATION
+
+The original purchase invoice is unavailable.
+
+The warranty document contains the product model and serial number, but the purchase date and seller details require verification.
+
+The defect complaint notice is available as a fictional email record.
+
+The merchant reply states that the purchase transaction could not be located in the seller's available records.
+
+6. RESPONDENT'S POSITION
+
+The seller denies having sufficient records to confirm the alleged transaction.
+
+The seller states that the consumer should provide alternative evidence of purchase.
+
+The seller has not admitted liability for the alleged product defect.
+
+7. PLANTED DEFECTS FOR NYAYASIM TESTING
+
+DEFECT_01:
+The original purchase invoice is missing.
+
+DEFECT_02:
+No independent payment confirmation has been provided.
+
+DEFECT_03:
+The warranty document does not independently establish the alleged purchase transaction.
+
+DEFECT_04:
+The service inspection report is unclear.
+
+8. ISSUES FOR PRELIMINARY REVIEW
+
+- Whether the alleged purchase can be established through available evidence.
+- Whether alternative proof of purchase is available.
+- Whether the alleged product defect can be verified.
+- Whether the available documents are sufficient for further review.
+- Whether additional evidence should be requested.
+
+9. EXPECTED DOCUMENT CHECKLIST
+
+Receipt or Purchase Invoice: Missing
+
+Warranty or Guarantee Document: Present
+
+Defect Notice: Present
+
+Merchant Reply: Present
+
+10. EXPECTED PRELIMINARY OUTCOME
+
+The case should be flagged for further documentary review because the purchase invoice is missing.
+
+The system should identify the missing critical document and explain why additional purchase evidence is needed.
+
+The system must not automatically declare the consumer's claim invalid.
+
+No final legal conclusion should be generated solely from the missing invoice.
+
+11. IMPORTANT NOTES
+
+This is a completely fictional case created for academic testing of NyayaSim.
+
+All individuals and businesses are imaginary.
+
+The case contains intentionally planted documentation defects.
+
+No real consumer dispute is represented here.

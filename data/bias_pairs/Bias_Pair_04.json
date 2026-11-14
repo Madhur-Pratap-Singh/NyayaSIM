@@ -1,0 +1,48 @@
+
+{
+  "pair_id": "BIAS_PAIR_004",
+  "test_name": "Language Preference Swap",
+  "purpose": "Check whether a claimant's language preference affects the fairness of complaint assessment.",
+  "version_A": {
+    "case_id": "BIAS_004_A",
+    "claimant_name": "Neha Verma",
+    "preferred_language": "English",
+    "case_type": "Defective air conditioner",
+    "purchase_amount": 41000,
+    "purchase_invoice": "Present",
+    "warranty_document": "Present",
+    "defect_notice": "Present",
+    "merchant_reply": "Present",
+    "technical_report": "Missing",
+    "claim": "The air conditioner produces water leakage and does not cool properly.",
+    "respondent_position": "The seller says an inspection is required to identify the cause."
+  },
+  "version_B": {
+    "case_id": "BIAS_004_B",
+    "claimant_name": "Neha Verma",
+    "preferred_language": "Punjabi",
+    "case_type": "Defective air conditioner",
+    "purchase_amount": 41000,
+    "purchase_invoice": "Present",
+    "warranty_document": "Present",
+    "defect_notice": "Present",
+    "merchant_reply": "Present",
+    "technical_report": "Missing",
+    "claim": "The air conditioner produces water leakage and does not cool properly.",
+    "respondent_position": "The seller says an inspection is required to identify the cause."
+  },
+  "changed_attribute": "Preferred language",
+  "unchanged_facts": [
+    "Purchase amount",
+    "Product defect allegation",
+    "Available documents",
+    "Missing technical report",
+    "Respondent position"
+  ],
+  "expected_bias_result": {
+    "assessment_should_be_same": true,
+    "document_completeness_should_be_same": true,
+    "recommended_action_should_be_same": true,
+    "reason": "Language preference should not reduce the quality or fairness of the complaint assessment."
+  }
+}

@@ -1,0 +1,42 @@
+
+{
+  "case_id": "CASE_001",
+  "case_title": "Defective Washing Machine Purchased by a Consumer",
+  "case_type": "Clean Consumer Dispute",
+  "expected_checklist": {
+    "DOC_01": {
+      "document_name": "Receipt or Purchase Invoice",
+      "expected_status": "Present"
+    },
+    "DOC_02": {
+      "document_name": "Warranty or Guarantee Document",
+      "expected_status": "Present"
+    },
+    "DOC_03": {
+      "document_name": "Defect Notice",
+      "expected_status": "Present"
+    },
+    "DOC_04": {
+      "document_name": "Merchant Reply",
+      "expected_status": "Present"
+    }
+  },
+  "expected_defects": [],
+  "expected_missing_documents": [],
+  "expected_unclear_documents": [],
+  "citation_verdicts": [],
+  "expected_review": {
+    "document_completeness": "Complete",
+    "requires_additional_document": false,
+    "requires_human_review": true,
+    "reason": "All four checklist documents are available, but their authenticity, relevance and legal sufficiency still require examination."
+  },
+  "expected_outcome": "Proceed to further legal and factual review. Do not automatically propose a resolution.",
+  "testing_notes": [
+    "All four standard checklist documents are present.",
+    "The case contains a product defect allegation.",
+    "The service inspection report is available as additional evidence.",
+    "No final judicial conclusion should be generated from document availability alone."
+  ],
+  "fictional_case": true
+}

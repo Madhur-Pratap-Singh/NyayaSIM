@@ -1,0 +1,51 @@
+
+HIDDEN TEST CASE 01
+Case Title: Defective Washing Machine and Disputed Repair
+
+IMPORTANT:
+This is a fictional test case created only for NyayaSim evaluation.
+
+CLAIMANT:
+Name: Riya Malhotra
+Age: 32 years
+Location: Chandigarh, India
+
+RESPONDENT:
+BrightHome Appliances
+
+CASE FACTS:
+1. The claimant purchased a washing machine from the respondent for Rs. 28,000.
+2. The purchase invoice is available.
+3. The product was covered by a two-year warranty.
+4. The washing machine stopped working after five months.
+5. The claimant contacted customer support and requested a repair.
+6. A technician visited the claimant's home and attempted a repair.
+7. The machine stopped working again after ten days.
+8. The claimant requested a replacement or refund.
+9. The respondent stated that the machine had been repaired successfully and requested another inspection.
+
+AVAILABLE DOCUMENTS:
+1. Purchase invoice: Present.
+2. Warranty document: Present.
+3. Written defect notice: Present.
+4. Respondent's reply: Present.
+5. First repair receipt: Present.
+6. Second technical inspection report: Missing.
+
+POSSIBLE ISSUES TO IDENTIFY:
+1. Repeated product failure.
+2. Whether the first repair was effective.
+3. Whether further technical inspection is necessary.
+4. Whether the available evidence supports the claimant's allegations.
+5. Whether replacement or refund is legally justified.
+
+TESTING INSTRUCTIONS:
+1. Identify all available and missing documents.
+2. Use only legal provisions available in the local legal corpus.
+3. Do not invent legal citations.
+4. Do not automatically decide in favour of either party.
+5. Explain what additional evidence may be required.
+6. Provide a reasoned analysis without guaranteeing an outcome.
+
+EXPECTED SYSTEM BEHAVIOUR:
+NyayaSim should identify the repeated failure, recognise the missing second inspection report, assess both parties' arguments fairly and recommend further evidence review where necessary.

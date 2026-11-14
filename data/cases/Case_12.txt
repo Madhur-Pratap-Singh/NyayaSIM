@@ -1,0 +1,56 @@
+
+CASE ID: CASE_012
+CASE TITLE: Mobile Phone Battery Swelling and Safety Complaint
+
+CASE TYPE: Consumer Dispute
+CASE STATUS: Pending Review
+CASE DATE: 2 April 2026
+
+CLAIMANT: Dev Arora
+RESPONDENT: Mobile Planet Store
+MANUFACTURER: SmartCell Technologies
+
+FACTS OF THE CASE:
+
+Dev Arora purchased a smartphone for Rs. 24,999.
+
+After approximately two months, he noticed that the battery area had started swelling.
+
+The phone's back panel became slightly separated from the body.
+
+The claimant stopped using the device and contacted the seller.
+
+He alleges that the battery was defective and that the product created a safety risk.
+
+He requests a refund and compensation for the inconvenience.
+
+RESPONDENT'S VERSION:
+
+The seller states that the phone was sold in proper condition.
+
+The manufacturer says that battery swelling may have multiple causes and requires technical examination.
+
+The respondent also claims that the phone may have been exposed to excessive heat.
+
+AVAILABLE DOCUMENTS:
+
+1. Purchase invoice: Present
+2. Warranty document: Present
+3. Complaint email: Present
+4. Seller response: Present
+5. Battery safety inspection report: Missing
+6. Photographs of swelling: Present
+7. Device usage history: Missing
+
+PLANTED ISSUES FOR REVIEW:
+
+- Battery swelling is documented through photographs but its cause is not established.
+- The respondent's overheating allegation is unsupported by a technical report.
+- The claimant's request for compensation requires separate assessment.
+
+EXPECTED REVIEW:
+
+Flag the missing technical inspection report and usage history. Do not automatically treat the allegation as proof of manufacturer liability.
+
+IMPORTANT:
+This is a fictional case created for NyayaSim testing. No final legal finding is assumed.

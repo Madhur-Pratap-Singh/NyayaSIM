@@ -1,0 +1,93 @@
+{
+  "case_id": "CASE_002",
+  "case_title": "Defective Mobile Phone - Missing Purchase Invoice",
+  "fictional_case": true,
+
+  "expected_checklist": [
+    {
+      "document_id": "DOC_01",
+      "document_name": "Receipt or Purchase Invoice",
+      "expected_status": "Missing",
+      "is_critical": true,
+      "reason": "The purchase invoice has not been provided."
+    },
+    {
+      "document_id": "DOC_02",
+      "document_name": "Warranty or Guarantee Document",
+      "expected_status": "Present",
+      "is_critical": false,
+      "reason": "The warranty document is available."
+    },
+    {
+      "document_id": "DOC_03",
+      "document_name": "Defect Notice",
+      "expected_status": "Present",
+      "is_critical": false,
+      "reason": "The consumer has submitted a notice describing the defect."
+    },
+    {
+      "document_id": "DOC_04",
+      "document_name": "Merchant Reply",
+      "expected_status": "Present",
+      "is_critical": false,
+      "reason": "The merchant's response is available."
+    }
+  ],
+
+  "expected_missing_documents": [
+    "DOC_01"
+  ],
+
+  "expected_unclear_documents": [],
+
+  "additional_evidence_concerns": [
+    {
+      "document_name": "Payment Confirmation",
+      "expected_status": "Missing",
+      "reason": "Payment confirmation has not been provided."
+    },
+    {
+      "document_name": "Service Inspection Report",
+      "expected_status": "Unclear",
+      "reason": "The available case information does not establish whether a complete inspection report exists."
+    }
+  ],
+
+  "expected_defects": [
+    {
+      "defect_id": "DEFECT_001",
+      "type": "Missing Purchase Evidence",
+      "severity": "High",
+      "description": "The purchase invoice is missing.",
+      "affected_document": "DOC_01"
+    },
+    {
+      "defect_id": "DEFECT_002",
+      "type": "Missing Supporting Evidence",
+      "severity": "Medium",
+      "description": "Payment confirmation is not available."
+    }
+  ],
+
+  "citation_verdicts": [],
+
+  "expected_review": {
+    "document_completeness": "Incomplete",
+    "requires_additional_document": true,
+    "requires_human_review": true,
+    "reason": "The purchase invoice is missing and payment confirmation is unavailable. The service inspection evidence also requires clarification."
+  },
+
+  "expected_outcome": {
+    "status": "Further Evidence Required",
+    "recommended_action": "Request the purchase invoice or alternative proof of purchase and payment confirmation. Clarify the service inspection report.",
+    "automatic_decision_allowed": false
+  },
+
+  "testing_notes": [
+    "The system should identify the missing purchase invoice.",
+    "The system should not mark the warranty, defect notice or merchant reply as missing.",
+    "The system should distinguish standard checklist documents from additional supporting evidence.",
+    "The system should not automatically reject the consumer's complaint."
+  ]
+}

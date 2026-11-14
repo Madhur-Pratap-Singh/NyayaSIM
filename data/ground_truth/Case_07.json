@@ -1,0 +1,99 @@
+{
+  "case_id": "CASE_007",
+  "case_title": "Defective Smartphone and Disputed Product Liability",
+  "fictional_case": true,
+
+  "expected_checklist": [
+    {
+      "document_id": "DOC_01",
+      "document_name": "Receipt or Purchase Invoice",
+      "expected_status": "Present"
+    },
+    {
+      "document_id": "DOC_02",
+      "document_name": "Warranty or Guarantee Document",
+      "expected_status": "Present"
+    },
+    {
+      "document_id": "DOC_03",
+      "document_name": "Defect Notice",
+      "expected_status": "Present"
+    },
+    {
+      "document_id": "DOC_04",
+      "document_name": "Merchant Reply",
+      "expected_status": "Present"
+    }
+  ],
+
+  "expected_missing_documents": [],
+  "expected_unclear_documents": [],
+
+  "additional_evidence_concerns": [
+    {
+      "document_name": "Independent Battery Safety Report",
+      "expected_status": "Missing",
+      "reason": "No independent battery safety report has been provided."
+    },
+    {
+      "document_name": "Original Charging Adapter",
+      "expected_status": "Unclear",
+      "reason": "The case information does not establish whether the original charging adapter was used."
+    },
+    {
+      "document_name": "Manufacturer Inspection Report",
+      "expected_status": "Present",
+      "reason": "The report is available, but its findings are disputed by the claimant."
+    }
+  ],
+
+  "expected_defects": [
+    {
+      "defect_id": "DEFECT_001",
+      "type": "Overbroad Legal Proposition",
+      "severity": "High",
+      "description": "The claimant states that every manufacturer is automatically liable for all product-related damage regardless of the cause."
+    },
+    {
+      "defect_id": "DEFECT_002",
+      "type": "Missing Technical Evidence",
+      "severity": "High",
+      "description": "The independent battery safety report is missing."
+    },
+    {
+      "defect_id": "DEFECT_003",
+      "type": "Unclear Supporting Evidence",
+      "severity": "Medium",
+      "description": "The use of the original charging adapter is unclear."
+    },
+    {
+      "defect_id": "DEFECT_004",
+      "type": "Disputed Inspection Findings",
+      "severity": "Medium",
+      "description": "The claimant disputes the manufacturer's inspection conclusions."
+    }
+  ],
+
+  "citation_verdicts": [],
+
+  "expected_review": {
+    "document_completeness": "Complete",
+    "requires_additional_document": true,
+    "requires_human_review": true,
+    "reason": "All four standard complaint documents are present, but battery safety evidence and the disputed inspection findings require further examination."
+  },
+
+  "expected_outcome": {
+    "status": "Further Technical Evidence Required",
+    "recommended_action": "Obtain an independent battery safety report, clarify the charging adapter details and examine the manufacturer's inspection findings.",
+    "automatic_decision_allowed": false
+  },
+
+  "testing_notes": [
+    "All four standard checklist documents should be marked Present.",
+    "The missing battery safety report must be identified as additional evidence.",
+    "The unclear charging adapter information must be flagged.",
+    "The system must not assume that battery damage automatically establishes legal liability.",
+    "The system must not automatically decide the complaint."
+  ]
+}

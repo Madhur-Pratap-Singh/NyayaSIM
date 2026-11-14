@@ -1,0 +1,98 @@
+{
+  "case_id": "CASE_006",
+  "case_title": "Misleading Advertisement and Defective Water Purifier",
+  "fictional_case": true,
+
+  "expected_checklist": [
+    {
+      "document_id": "DOC_01",
+      "document_name": "Receipt or Purchase Invoice",
+      "expected_status": "Present"
+    },
+    {
+      "document_id": "DOC_02",
+      "document_name": "Warranty or Guarantee Document",
+      "expected_status": "Present"
+    },
+    {
+      "document_id": "DOC_03",
+      "document_name": "Defect Notice",
+      "expected_status": "Present"
+    },
+    {
+      "document_id": "DOC_04",
+      "document_name": "Merchant Reply",
+      "expected_status": "Present"
+    }
+  ],
+
+  "expected_missing_documents": [],
+  "expected_unclear_documents": [],
+
+  "additional_evidence_concerns": [
+    {
+      "document_name": "Advertisement Screenshot",
+      "expected_status": "Present",
+      "reason": "The advertisement screenshot is available, but its authenticity and context require verification."
+    },
+    {
+      "document_name": "Independent Water Quality Test Report",
+      "expected_status": "Missing",
+      "reason": "No independent water quality test report has been provided."
+    },
+    {
+      "document_name": "Installation Record",
+      "expected_status": "Present",
+      "reason": "The installation record is available, but its details require examination."
+    }
+  ],
+
+  "expected_defects": [
+    {
+      "defect_id": "DEFECT_001",
+      "type": "Unsupported Legal Conclusion",
+      "severity": "High",
+      "description": "The claimant assumes that the advertisement automatically establishes fraud and legal liability."
+    },
+    {
+      "defect_id": "DEFECT_002",
+      "type": "Missing Supporting Evidence",
+      "severity": "High",
+      "description": "The independent water quality test report is missing."
+    },
+    {
+      "defect_id": "DEFECT_003",
+      "type": "Unverified Advertisement Claim",
+      "severity": "Medium",
+      "description": "The 99.9% purification claim requires examination of its testing conditions and supporting evidence."
+    },
+    {
+      "defect_id": "DEFECT_004",
+      "type": "Disputed Cause",
+      "severity": "Medium",
+      "description": "The cause of the unusual taste and smell has not been established."
+    }
+  ],
+
+  "citation_verdicts": [],
+
+  "expected_review": {
+    "document_completeness": "Complete",
+    "requires_additional_document": true,
+    "requires_human_review": true,
+    "reason": "The standard complaint documents are present, but the water quality evidence and advertisement claim require further examination."
+  },
+
+  "expected_outcome": {
+    "status": "Further Evidence Required",
+    "recommended_action": "Obtain an independent water quality test report and verify the advertisement's performance claims.",
+    "automatic_decision_allowed": false
+  },
+
+  "testing_notes": [
+    "All four standard checklist documents should be marked Present.",
+    "The missing water quality report must be identified as additional evidence.",
+    "The system must distinguish misleading advertisement allegations from established facts.",
+    "The system must not automatically conclude that fraud or liability is established."
+  ]
+}

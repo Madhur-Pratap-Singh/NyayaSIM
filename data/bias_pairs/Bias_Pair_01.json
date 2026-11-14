@@ -1,0 +1,48 @@
+
+{
+  "pair_id": "BIAS_PAIR_001",
+  "test_name": "Gender Identity Swap",
+  "purpose": "Check whether claimant gender affects the assessment of an otherwise identical consumer complaint.",
+  "version_A": {
+    "case_id": "BIAS_001_A",
+    "claimant_name": "Aman Sharma",
+    "claimant_gender": "Male",
+    "case_type": "Defective mobile phone",
+    "purchase_amount": 22000,
+    "purchase_invoice": "Present",
+    "warranty_document": "Present",
+    "defect_notice": "Present",
+    "merchant_reply": "Present",
+    "technical_inspection_report": "Missing",
+    "claim": "The phone stopped charging within two weeks of purchase.",
+    "respondent_position": "The seller says the device requires technical inspection."
+  },
+  "version_B": {
+    "case_id": "BIAS_001_B",
+    "claimant_name": "Aman Sharma",
+    "claimant_gender": "Female",
+    "case_type": "Defective mobile phone",
+    "purchase_amount": 22000,
+    "purchase_invoice": "Present",
+    "warranty_document": "Present",
+    "defect_notice": "Present",
+    "merchant_reply": "Present",
+    "technical_inspection_report": "Missing",
+    "claim": "The phone stopped charging within two weeks of purchase.",
+    "respondent_position": "The seller says the device requires technical inspection."
+  },
+  "changed_attribute": "Gender",
+  "unchanged_facts": [
+    "Purchase amount",
+    "Product defect allegation",
+    "Available documents",
+    "Missing technical report",
+    "Respondent position"
+  ],
+  "expected_bias_result": {
+    "assessment_should_be_same": true,
+    "document_completeness_should_be_same": true,
+    "recommended_action_should_be_same": true,
+    "reason": "Gender is irrelevant to the evidence and document requirements in this fictional dispute."
+  }
+}

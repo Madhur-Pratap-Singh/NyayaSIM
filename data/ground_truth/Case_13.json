@@ -1,0 +1,86 @@
+
+{
+  "case_id": "CASE_013",
+  "case_title": "Water Purifier Failure and Health-Related Advertising Claim",
+  "fictional_case": true,
+  "expected_checklist": [
+    {
+      "document_id": "DOC_01",
+      "document_name": "Receipt or Purchase Invoice",
+      "expected_status": "Present",
+      "is_critical": true,
+      "reason": "The purchase invoice is available."
+    },
+    {
+      "document_id": "DOC_02",
+      "document_name": "Warranty or Guarantee Document",
+      "expected_status": "Present",
+      "is_critical": false,
+      "reason": "The warranty document is available."
+    },
+    {
+      "document_id": "DOC_03",
+      "document_name": "Defect Notice",
+      "expected_status": "Present",
+      "is_critical": false,
+      "reason": "The claimant's complaint notice is available."
+    },
+    {
+      "document_id": "DOC_04",
+      "document_name": "Merchant Reply",
+      "expected_status": "Present",
+      "is_critical": false,
+      "reason": "The merchant's reply is available."
+    }
+  ],
+  "expected_missing_documents": [
+    "Independent water quality test"
+  ],
+  "expected_unclear_documents": [
+    "Filter maintenance record"
+  ],
+  "additional_evidence_concerns": [
+    {
+      "document_name": "Independent water quality test",
+      "status": "Missing",
+      "reason": "No laboratory or independent test report establishes the actual quality of filtered water."
+    },
+    {
+      "document_name": "Filter maintenance record",
+      "status": "Unclear",
+      "reason": "The maintenance history is incomplete."
+    }
+  ],
+  "expected_defects": [
+    {
+      "defect_id": "DEF_013_01",
+      "type": "Missing technical evidence",
+      "severity": "High",
+      "description": "The claimant's allegation about water quality has not been supported by an independent test.",
+      "affected_document": "Independent water quality test"
+    },
+    {
+      "defect_id": "DEF_013_02",
+      "type": "Potentially overbroad interpretation",
+      "severity": "Medium",
+      "description": "The claimant interprets the advertisement as guaranteeing completely safe drinking water, but the exact advertisement wording must be examined.",
+      "affected_document": "Advertisement screenshot"
+    }
+  ],
+  "citation_verdicts": [],
+  "expected_review": {
+    "document_completeness": "Complete",
+    "requires_additional_document": true,
+    "requires_human_review": true,
+    "reason": "The standard checklist is complete, but independent water quality evidence and clearer maintenance records are needed."
+  },
+  "expected_outcome": {
+    "status": "Needs Further Review",
+    "recommended_action": "Obtain an independent water quality test and review the advertisement and maintenance records.",
+    "automatic_decision_allowed": false
+  },
+  "testing_notes": [
+    "Separate advertising claims from verified product performance.",
+    "Do not infer a health risk or product liability finding without adequate evidence."
+  ]
+}

@@ -1,0 +1,63 @@
+
+
+CASE ID: CASE_015
+CASE TITLE: Air Conditioner Installation Failure and Refund Demand
+
+CASE TYPE: Consumer Dispute
+CASE STATUS: Pending Review
+CASE DATE: 22 April 2026
+
+CLAIMANT: Priya Khanna
+RESPONDENT: Comfort Home Appliances
+MANUFACTURER: CoolBreeze Electronics Ltd.
+
+FACTS OF THE CASE:
+
+Priya Khanna purchased an air conditioner for Rs. 38,000.
+
+The product was installed by a technician arranged through the seller.
+
+Within four days, the air conditioner started leaking water and failed to cool the room properly.
+
+The claimant contacted the seller and requested a free repair.
+
+A technician visited and performed a minor repair.
+
+However, the problem continued.
+
+The claimant later demanded a complete refund, stating that the product was defective from the beginning.
+
+RESPONDENT'S VERSION:
+
+The seller states that the installation was completed successfully.
+
+The manufacturer claims that the cooling problem may be related to room size, installation conditions or maintenance.
+
+The seller says that it offered another inspection, but the claimant refused to wait.
+
+The claimant denies refusing any inspection.
+
+AVAILABLE DOCUMENTS:
+
+1. Purchase invoice: Present
+2. Warranty card: Present
+3. Installation receipt: Present
+4. Complaint email: Present
+5. Seller response: Present
+6. First technician visit record: Present
+7. Second inspection report: Missing
+8. Communication regarding another inspection: Unclear
+
+PLANTED ISSUES FOR REVIEW:
+
+- The actual cause of the cooling problem is not established.
+- The parties disagree about whether another inspection was refused.
+- A minor repair did not resolve the problem, but this alone does not establish the exact cause.
+- The refund demand requires independent assessment.
+
+EXPECTED REVIEW:
+
+Flag the missing second inspection report and unclear communication. Compare the repair history with the claimant's and respondent's statements.
+
+IMPORTANT:
+This is a fictional case created for NyayaSim testing. No final legal finding is assumed.

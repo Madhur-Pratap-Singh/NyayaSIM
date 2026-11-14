@@ -1,0 +1,53 @@
+
+CASE ID: CASE_010
+CASE TITLE: Misleading Discount Advertisement for a Laptop
+
+CASE TYPE: Consumer Dispute
+CASE STATUS: Pending Review
+CASE DATE: 18 March 2026
+
+CLAIMANT: Karan Verma
+RESPONDENT: TechZone Retail Store
+MANUFACTURER: Nova Computing Pvt. Ltd.
+
+FACTS OF THE CASE:
+
+Karan Verma purchased a laptop for Rs. 65,000 after seeing an advertisement claiming a 40% discount.
+
+The advertisement displayed an original price of Rs. 1,08,000.
+
+After purchasing the laptop, Karan discovered that the same model was being sold by other retailers for approximately Rs. 68,000 without any special discount.
+
+He believes that the advertised discount was misleading.
+
+The claimant seeks compensation and an explanation regarding the advertised price.
+
+RESPONDENT'S VERSION:
+
+TechZone states that the advertised original price was based on its own pricing records.
+
+The store claims that promotional prices may differ between retailers.
+
+The manufacturer denies responsibility for the retailer's discount advertisement.
+
+AVAILABLE DOCUMENTS:
+
+1. Purchase invoice: Present
+2. Advertisement screenshot: Present
+3. Warranty document: Present
+4. Complaint notice: Present
+5. Merchant reply: Present
+6. Historical price record: Missing
+
+PLANTED ISSUES FOR REVIEW:
+
+- The original advertised price has not been independently verified.
+- Comparison with other retailers does not automatically prove misleading advertising.
+- Responsibility of the retailer and manufacturer must be examined separately.
+
+EXPECTED REVIEW:
+
+Flag the missing historical price record and distinguish between the claimant's allegation and verified evidence.
+
+IMPORTANT:
+This is a fictional case created for NyayaSim testing. No final legal finding is assumed.

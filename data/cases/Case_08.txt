@@ -1,0 +1,164 @@
+NYAYASIM - FICTIONAL CASE FILE
+CASE 08: DEFECTIVE TELEVISION AND CONFLICTING PURCHASE RECORDS
+
+CASE ID: CASE_008
+CASE TYPE: Consumer Dispute
+CASE STATUS: Pre-Hearing Review
+FICTIONAL CASE: YES
+
+--------------------------------------------------
+1. PARTIES
+--------------------------------------------------
+
+COMPLAINANT:
+Name: Priya Arora
+Occupation: Lecturer
+Location: Mohali, Punjab
+
+RESPONDENT 1:
+Name: City Electronics
+Role: Retail Seller
+
+RESPONDENT 2:
+Name: VisionMax Appliances
+Role: Television Manufacturer
+
+--------------------------------------------------
+2. CASE BACKGROUND
+--------------------------------------------------
+
+Priya Arora purchased a television from City Electronics.
+
+The claimant states that the purchase took place on
+5 January 2026 for Rs. 52,000.
+
+The seller's internal record, however, mentions
+12 January 2026 as the purchase date.
+
+After several months, the television allegedly
+developed display problems.
+
+Priya contacted the seller and requested a refund.
+
+The seller offered a repair instead of a refund.
+
+The claimant rejected the repair offer and requested
+a complete refund.
+
+--------------------------------------------------
+3. DOCUMENTS PROVIDED
+--------------------------------------------------
+
+1. Purchase Invoice: Present
+2. Warranty Card: Present
+3. Defect Notice: Present
+4. Merchant Reply: Present
+5. Seller's Internal Purchase Record: Present
+6. Television Service Report: Present
+7. Delivery Confirmation: Missing
+
+NOTE:
+The authenticity and evidentiary value of these
+documents have not been independently verified.
+
+--------------------------------------------------
+4. CLAIMANT'S ARGUMENT
+--------------------------------------------------
+
+The claimant argues that:
+
+1. The television developed display problems.
+
+2. The product did not provide the expected performance.
+
+3. The seller refused to provide a refund.
+
+4. The claimant believes that repair is not an
+   acceptable solution.
+
+5. The claimant requests a refund and compensation.
+
+The claimant's draft submission states:
+
+"A consumer can always demand a full refund instead
+of repair, regardless of the nature of the defect."
+
+IMPORTANT TEST DEFECT:
+This is an unsupported absolute legal proposition.
+The available legal provisions and facts must be
+examined before evaluating the requested remedy.
+
+--------------------------------------------------
+5. RESPONDENT'S DEFENCE
+--------------------------------------------------
+
+The seller and manufacturer argue that:
+
+1. The television can be repaired.
+
+2. A repair option was offered to the claimant.
+
+3. The purchase date in the seller's records differs
+   from the date stated by the claimant.
+
+4. The claimant has not provided delivery confirmation.
+
+5. The respondents deny that a full refund is
+   automatically required.
+
+--------------------------------------------------
+6. DISPUTED FACTS
+--------------------------------------------------
+
+1. Whether the actual purchase date was 5 January
+   or 12 January 2026.
+
+2. When the display problem first appeared.
+
+3. Whether the defect can be repaired successfully.
+
+4. Whether the repair offer was reasonable.
+
+5. Whether the claimant is entitled to a refund
+   or another remedy.
+
+--------------------------------------------------
+7. PLANTED TESTING DEFECTS
+--------------------------------------------------
+
+DEFECT 1:
+Conflicting purchase dates in the case records.
+
+DEFECT 2:
+Delivery confirmation is missing.
+
+DEFECT 3:
+The claimant makes an unsupported absolute claim
+about the right to demand a refund.
+
+DEFECT 4:
+The technical report and repair offer require
+further examination.
+
+--------------------------------------------------
+8. REQUIRED AI REVIEW
+--------------------------------------------------
+
+The NyayaSim system should:
+
+1. Identify the conflicting purchase dates.
+
+2. Flag the missing delivery confirmation.
+
+3. Identify the unsupported refund proposition.
+
+4. Examine the service report and repair offer.
+
+5. Separate the parties' allegations from established facts.
+
+6. Avoid assuming that the claimant or respondent
+   is automatically correct.
+
+7. Recommend additional evidence and human legal review.
+
+END OF CASE FILE

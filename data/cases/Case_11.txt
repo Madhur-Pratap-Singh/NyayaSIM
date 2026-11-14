@@ -1,0 +1,55 @@
+
+CASE ID: CASE_011
+CASE TITLE: Refrigerator Delivery Damage and Installation Dispute
+
+CASE TYPE: Consumer Dispute
+CASE STATUS: Pending Review
+CASE DATE: 25 March 2026
+
+CLAIMANT: Simran Kaur
+RESPONDENT: CoolMart Electronics
+MANUFACTURER: Arctic Appliances Ltd.
+
+FACTS OF THE CASE:
+
+Simran Kaur purchased a refrigerator for Rs. 42,500 from CoolMart Electronics.
+
+The refrigerator was delivered to her home two days later.
+
+After removing the packaging, she noticed a dent on the left side and a crack near the vegetable compartment.
+
+She immediately contacted the seller and requested replacement.
+
+The claimant states that the delivery workers refused to record the damage.
+
+The seller rejected the request, claiming that the damage may have occurred after delivery.
+
+RESPONDENT'S VERSION:
+
+CoolMart states that the product was delivered in sealed packaging.
+
+The seller claims that the claimant signed the delivery receipt without mentioning any damage.
+
+The manufacturer requests a physical inspection before accepting responsibility.
+
+AVAILABLE DOCUMENTS:
+
+1. Purchase invoice: Present
+2. Warranty card: Present
+3. Delivery receipt: Present
+4. Photographs of damage: Present
+5. Written delivery damage report: Missing
+6. Manufacturer inspection report: Unclear
+
+PLANTED ISSUES FOR REVIEW:
+
+- The claimant's photographs do not establish exactly when the damage occurred.
+- The delivery receipt does not mention visible damage.
+- No independent inspection report is available.
+
+EXPECTED REVIEW:
+
+Identify the difference between the claimant's account and the delivery documentation. Flag the missing damage report and unclear inspection evidence.
+
+IMPORTANT:
+This is a fictional case created for NyayaSim testing. No final legal finding is assumed.

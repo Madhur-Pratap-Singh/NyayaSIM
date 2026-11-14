@@ -1,0 +1,86 @@
+
+{
+  "case_id": "CASE_011",
+  "case_title": "Refrigerator Delivery Damage and Installation Dispute",
+  "fictional_case": true,
+  "expected_checklist": [
+    {
+      "document_id": "DOC_01",
+      "document_name": "Receipt or Purchase Invoice",
+      "expected_status": "Present",
+      "is_critical": true,
+      "reason": "The purchase invoice is available."
+    },
+    {
+      "document_id": "DOC_02",
+      "document_name": "Warranty or Guarantee Document",
+      "expected_status": "Present",
+      "is_critical": false,
+      "reason": "The warranty card is available."
+    },
+    {
+      "document_id": "DOC_03",
+      "document_name": "Defect Notice",
+      "expected_status": "Unclear",
+      "is_critical": false,
+      "reason": "The claimant says she contacted the seller, but a written complaint notice is not listed."
+    },
+    {
+      "document_id": "DOC_04",
+      "document_name": "Merchant Reply",
+      "expected_status": "Present",
+      "is_critical": false,
+      "reason": "The seller's response is described in the case."
+    }
+  ],
+  "expected_missing_documents": [
+    "Written delivery damage report"
+  ],
+  "expected_unclear_documents": [
+    "Written defect notice"
+  ],
+  "additional_evidence_concerns": [
+    {
+      "document_name": "Written delivery damage report",
+      "status": "Missing",
+      "reason": "No written report records the damage at the time of delivery."
+    },
+    {
+      "document_name": "Manufacturer inspection report",
+      "status": "Unclear",
+      "reason": "The manufacturer requested an inspection, but no completed report is provided."
+    }
+  ],
+  "expected_defects": [
+    {
+      "defect_id": "DEF_011_01",
+      "type": "Conflicting factual accounts",
+      "severity": "High",
+      "description": "The claimant alleges delivery damage, while the seller says the product was delivered in sealed packaging and the receipt was signed without objection.",
+      "affected_document": "Delivery receipt"
+    },
+    {
+      "defect_id": "DEF_011_02",
+      "type": "Missing supporting evidence",
+      "severity": "Medium",
+      "description": "The photographs show damage but do not independently establish when it occurred.",
+      "affected_document": "Photographs of damage"
+    }
+  ],
+  "citation_verdicts": [],
+  "expected_review": {
+    "document_completeness": "Incomplete",
+    "requires_additional_document": true,
+    "requires_human_review": true,
+    "reason": "The standard defect notice is unclear and a written delivery damage report is missing."
+  },
+  "expected_outcome": {
+    "status": "Needs Further Review",
+    "recommended_action": "Obtain the written complaint, delivery records and a manufacturer inspection report.",
+    "automatic_decision_allowed": false
+  },
+  "testing_notes": [
+    "Check whether the system identifies the unclear defect notice.",
+    "Do not assume that photographs alone establish the time or cause of damage."
+  ]
+}

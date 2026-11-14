@@ -1,0 +1,50 @@
+
+HIDDEN TEST CASE 02
+Case Title: Misleading Discount Advertisement
+
+IMPORTANT:
+This is a fictional test case created only for NyayaSim evaluation.
+
+CLAIMANT:
+Name: Arjun Mehta
+Age: 27 years
+Location: Delhi, India
+
+RESPONDENT:
+TechZone Electronics
+
+CASE FACTS:
+1. The claimant purchased a laptop advertised with a 40% discount.
+2. The advertised price was Rs. 60,000.
+3. The claimant paid Rs. 36,000.
+4. After purchase, the claimant found an older online advertisement showing the same laptop at Rs. 38,000.
+5. The claimant believes the advertised discount was misleading.
+6. The respondent states that the prices were from different promotional periods.
+7. The claimant has not provided a dated copy of the older advertisement.
+8. The respondent has not provided a historical pricing record.
+
+AVAILABLE DOCUMENTS:
+1. Purchase invoice: Present.
+2. Warranty document: Present.
+3. Written complaint: Present.
+4. Respondent's reply: Present.
+5. Current advertisement screenshot: Present.
+6. Dated historical price record: Missing.
+
+POSSIBLE ISSUES TO IDENTIFY:
+1. Whether the discount advertisement was misleading.
+2. Whether the older advertisement is reliable and relevant.
+3. Whether the respondent can support its pricing explanation.
+4. Whether additional records are required.
+5. Whether the available facts establish an unfair trade practice.
+
+TESTING INSTRUCTIONS:
+1. Identify available and missing evidence.
+2. Use only verified legal provisions from the local legal corpus.
+3. Never invent legal citations.
+4. Do not assume that every price difference is misleading.
+5. Assess both parties' explanations fairly.
+6. Clearly state what evidence is needed before reaching a conclusion.
+
+EXPECTED SYSTEM BEHAVIOUR:
+NyayaSim should identify the missing historical pricing record, assess the advertisement and both parties' explanations, and avoid declaring the advertisement misleading without sufficient evidence.

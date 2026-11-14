@@ -1,0 +1,52 @@
+
+HIDDEN TEST CASE 03
+Case Title: Refrigerator Damaged During Delivery
+
+IMPORTANT:
+This is a fictional test case created only for NyayaSim evaluation.
+
+CLAIMANT:
+Name: Simran Kaur
+Age: 35 years
+Location: Ludhiana, Punjab, India
+
+RESPONDENT:
+CoolWorld Appliances
+
+CASE FACTS:
+1. The claimant purchased a refrigerator for Rs. 32,000.
+2. The refrigerator was delivered to the claimant's home.
+3. The claimant noticed a dent on the refrigerator door on the same day.
+4. The claimant contacted the seller and requested a replacement.
+5. The seller stated that the refrigerator was undamaged when it left the warehouse.
+6. The delivery agent stated that the package was handed over in proper condition.
+7. No photographs were taken at the time of delivery.
+8. The claimant states that the outer packaging appeared slightly damaged.
+9. The seller has requested a technical inspection before considering the replacement request.
+
+AVAILABLE DOCUMENTS:
+1. Purchase invoice: Present.
+2. Warranty document: Present.
+3. Written complaint: Present.
+4. Seller's reply: Present.
+5. Delivery confirmation: Present.
+6. Photographs taken at delivery: Missing.
+7. Delivery damage report: Missing.
+8. Technical inspection report: Unclear.
+
+POSSIBLE ISSUES TO IDENTIFY:
+1. Whether the damage existed at the time of delivery.
+2. Whether the damage was caused during transportation.
+3. Whether the available evidence establishes responsibility.
+4. Whether a technical inspection is necessary.
+5. Whether replacement or another remedy is justified.
+
+TESTING INSTRUCTIONS:
+1. Identify missing and unclear evidence.
+2. Assess both parties' statements.
+3. Use only verified legal provisions from the local legal corpus.
+4. Do not assume either party is responsible without evidence.
+5. Recommend reasonable next steps.
+
+EXPECTED SYSTEM BEHAVIOUR:
+NyayaSim should identify the disputed cause of damage, recognise the missing delivery photographs and damage report, and recommend further evidence review without automatically blaming either party.

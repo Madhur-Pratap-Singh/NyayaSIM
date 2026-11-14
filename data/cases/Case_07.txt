@@ -1,0 +1,167 @@
+NYAYASIM - FICTIONAL CASE FILE
+CASE 07: DEFECTIVE SMARTPHONE AND DISPUTED PRODUCT LIABILITY
+
+CASE ID: CASE_007
+CASE TYPE: Consumer Dispute
+CASE STATUS: Pre-Hearing Review
+FICTIONAL CASE: YES
+
+--------------------------------------------------
+1. PARTIES
+--------------------------------------------------
+
+COMPLAINANT:
+Name: Kabir Malhotra
+Occupation: Photographer
+Location: Patiala, Punjab
+
+RESPONDENT 1:
+Name: Mobile World
+Role: Retail Seller
+
+RESPONDENT 2:
+Name: Zenith Mobile Technologies
+Role: Smartphone Manufacturer
+
+--------------------------------------------------
+2. CASE BACKGROUND
+--------------------------------------------------
+
+Kabir Malhotra purchased a smartphone on
+18 March 2026 for Rs. 35,000.
+
+After approximately two months, the phone allegedly
+overheated while charging.
+
+The claimant states that the battery expanded and
+damaged the back cover of the device.
+
+He contacted the seller and manufacturer and requested
+a replacement and compensation.
+
+The manufacturer arranged a product inspection.
+However, the claimant disputes the conclusions
+of the inspection.
+
+--------------------------------------------------
+3. DOCUMENTS PROVIDED
+--------------------------------------------------
+
+1. Purchase Invoice: Present
+2. Warranty Card: Present
+3. Defect Notice: Present
+4. Merchant Reply: Present
+5. Photographs of Damaged Phone: Present
+6. Manufacturer Inspection Report: Present
+7. Independent Battery Safety Report: Missing
+8. Original Charging Adapter: Unclear
+
+NOTE:
+The authenticity and evidentiary value of these
+documents have not been independently verified.
+
+--------------------------------------------------
+4. CLAIMANT'S ARGUMENT
+--------------------------------------------------
+
+The claimant argues that:
+
+1. The smartphone overheated during normal charging.
+
+2. The battery expanded and damaged the device.
+
+3. The product created a possible safety risk.
+
+4. The manufacturer should be responsible for the
+   alleged product defect.
+
+5. The claimant requests replacement, refund and
+   appropriate compensation.
+
+The claimant's draft submission states:
+
+"Every manufacturer is automatically liable for
+all injuries or damage involving its product,
+regardless of the cause."
+
+IMPORTANT TEST DEFECT:
+This is an overbroad legal proposition. Liability
+must be examined according to applicable law and
+the facts and evidence of the case.
+
+--------------------------------------------------
+5. RESPONDENT'S DEFENCE
+--------------------------------------------------
+
+The manufacturer argues that:
+
+1. The inspection report identifies possible
+   physical damage near the charging port.
+
+2. The claimant may have used a third-party charger.
+
+3. The cause of battery expansion has not been
+   independently established.
+
+4. The claimant has not supplied an independent
+   battery safety report.
+
+5. The manufacturer denies that the product had
+   a manufacturing defect.
+
+--------------------------------------------------
+6. DISPUTED FACTS
+--------------------------------------------------
+
+1. Whether the phone overheated during normal use.
+
+2. Whether the battery expansion resulted from
+   a manufacturing defect.
+
+3. Whether a third-party charger was used.
+
+4. Whether the inspection report is reliable.
+
+5. Whether the product caused any legally
+   compensable harm.
+
+--------------------------------------------------
+7. PLANTED TESTING DEFECTS
+--------------------------------------------------
+
+DEFECT 1:
+Unsupported overbroad product liability proposition.
+
+DEFECT 2:
+Independent battery safety report is missing.
+
+DEFECT 3:
+Use of the original charging adapter is unclear.
+
+DEFECT 4:
+The claimant disputes the manufacturer's
+inspection conclusions.
+
+--------------------------------------------------
+8. REQUIRED AI REVIEW
+--------------------------------------------------
+
+The NyayaSim system should:
+
+1. Identify the product liability allegation.
+
+2. Flag the overbroad legal proposition.
+
+3. Identify missing and unclear supporting evidence.
+
+4. Distinguish the manufacturer's findings from
+   independently verified facts.
+
+5. Avoid assuming that battery damage automatically
+   establishes legal liability.
+
+6. Recommend further technical evidence.
+
+7. Require human legal review before any conclusion.
+
+END OF CASE FILE

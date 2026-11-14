@@ -1,0 +1,93 @@
+{
+  "case_id": "CASE_004",
+  "case_title": "Defective Refrigerator and Disputed Payment",
+  "fictional_case": true,
+
+  "expected_checklist": [
+    {
+      "document_id": "DOC_01",
+      "document_name": "Receipt or Purchase Invoice",
+      "expected_status": "Present"
+    },
+    {
+      "document_id": "DOC_02",
+      "document_name": "Warranty or Guarantee Document",
+      "expected_status": "Present"
+    },
+    {
+      "document_id": "DOC_03",
+      "document_name": "Defect Notice",
+      "expected_status": "Present"
+    },
+    {
+      "document_id": "DOC_04",
+      "document_name": "Merchant Reply",
+      "expected_status": "Present"
+    }
+  ],
+
+  "expected_missing_documents": [],
+  "expected_unclear_documents": [],
+
+  "additional_evidence_concerns": [
+    {
+      "document_name": "Installation Receipt",
+      "expected_status": "Missing",
+      "reason": "The claimant has not provided proof of installation."
+    },
+    {
+      "document_name": "Technician Inspection Report",
+      "expected_status": "Unclear",
+      "reason": "The available information does not establish the complete findings of the inspection."
+    }
+  ],
+
+  "expected_defects": [
+    {
+      "defect_id": "DEFECT_001",
+      "type": "Unsupported Legal Proposition",
+      "severity": "High",
+      "description": "The claim that every defective product must be replaced within seven days is unsupported and must be verified against the local legal corpus."
+    },
+    {
+      "defect_id": "DEFECT_002",
+      "type": "Missing Supporting Evidence",
+      "severity": "Medium",
+      "description": "The installation receipt is missing."
+    },
+    {
+      "defect_id": "DEFECT_003",
+      "type": "Unclear Technical Evidence",
+      "severity": "Medium",
+      "description": "The technician inspection report is unclear."
+    },
+    {
+      "defect_id": "DEFECT_004",
+      "type": "Unsupported Financial Loss",
+      "severity": "Medium",
+      "description": "The claimed financial loss due to spoiled food is not fully supported by evidence."
+    }
+  ],
+
+  "citation_verdicts": [],
+
+  "expected_review": {
+    "document_completeness": "Complete",
+    "requires_additional_document": true,
+    "requires_human_review": true,
+    "reason": "All four standard checklist documents are present, but additional installation and technical evidence is needed."
+  },
+
+  "expected_outcome": {
+    "status": "Further Evidence Required",
+    "recommended_action": "Request the installation receipt, clarify the technician report and seek supporting evidence for the claimed financial loss.",
+    "automatic_decision_allowed": false
+  },
+
+  "testing_notes": [
+    "All four standard checklist documents should be marked Present.",
+    "The missing installation receipt must be treated as additional evidence, not a missing standard checklist item.",
+    "The seven-day replacement statement must be flagged as unsupported.",
+    "The system must not automatically decide the complaint."
+  ]
+}

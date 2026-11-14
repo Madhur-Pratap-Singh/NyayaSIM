@@ -1,0 +1,88 @@
+{
+  "case_id": "CASE_003",
+  "case_title": "Defective Laptop and Disputed Product Damage",
+  "fictional_case": true,
+
+  "expected_checklist": [
+    {
+      "document_id": "DOC_01",
+      "document_name": "Receipt or Purchase Invoice",
+      "expected_status": "Present"
+    },
+    {
+      "document_id": "DOC_02",
+      "document_name": "Warranty or Guarantee Document",
+      "expected_status": "Present"
+    },
+    {
+      "document_id": "DOC_03",
+      "document_name": "Defect Notice",
+      "expected_status": "Present"
+    },
+    {
+      "document_id": "DOC_04",
+      "document_name": "Merchant Reply",
+      "expected_status": "Present"
+    }
+  ],
+
+  "expected_missing_documents": [],
+  "expected_unclear_documents": [],
+
+  "additional_evidence_concerns": [
+    {
+      "document_name": "Laptop Service Report",
+      "expected_status": "Present",
+      "concern": "The report does not conclusively establish the cause of the damage."
+    }
+  ],
+
+  "expected_defects": [
+    {
+      "defect_id": "DEFECT_001",
+      "type": "Unverified Legal Citation",
+      "severity": "High",
+      "description": "The claimant cites Section 99-B of the Consumer Protection Act, 2019. This is a deliberately planted citation that must be checked against the local legal corpus."
+    },
+    {
+      "defect_id": "DEFECT_002",
+      "type": "Unsupported Factual Proposition",
+      "severity": "Medium",
+      "description": "The claimant assumes overheating automatically proves a manufacturing defect."
+    },
+    {
+      "defect_id": "DEFECT_003",
+      "type": "Unsupported Defence",
+      "severity": "Medium",
+      "description": "The respondents suggest improper usage without conclusive supporting proof."
+    }
+  ],
+
+  "citation_verdicts": [
+    {
+      "citation_text": "Section 99-B of the Consumer Protection Act, 2019",
+      "expected_verdict": "Unverified",
+      "reason": "The citation is deliberately planted and must not be accepted without verification against the local legal corpus."
+    }
+  ],
+
+  "expected_review": {
+    "document_completeness": "Complete",
+    "requires_additional_document": false,
+    "requires_human_review": true,
+    "reason": "The standard complaint documents are present, but the citation, technical evidence and disputed facts require further examination."
+  },
+
+  "expected_outcome": {
+    "status": "Further Legal and Factual Review Required",
+    "recommended_action": "Verify the legal citation and examine the technical evidence and both parties' claims.",
+    "automatic_decision_allowed": false
+  },
+
+  "testing_notes": [
+    "All four standard checklist documents should be marked Present.",
+    "The Section 99-B citation must be flagged for verification.",
+    "The system must distinguish allegations from established facts.",
+    "The system must not automatically decide liability."
+  ]
+}

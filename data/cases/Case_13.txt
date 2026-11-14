@@ -1,0 +1,57 @@
+
+
+CASE ID: CASE_013
+CASE TITLE: Water Purifier Failure and Health-Related Advertising Claim
+
+CASE TYPE: Consumer Dispute
+CASE STATUS: Pending Review
+CASE DATE: 9 April 2026
+
+CLAIMANT: Nisha Sharma
+RESPONDENT: PureLife Retailers
+MANUFACTURER: AquaSafe Systems Ltd.
+
+FACTS OF THE CASE:
+
+Nisha Sharma purchased a water purifier for Rs. 16,800.
+
+The product advertisement claimed that the purifier removed 99.9% of harmful impurities.
+
+After one month, the claimant noticed an unusual taste and smell in the filtered water.
+
+She contacted the seller and requested a replacement.
+
+The claimant alleges that the product failed to provide the advertised purification performance.
+
+She also claims that the advertisement created an expectation of completely safe drinking water.
+
+RESPONDENT'S VERSION:
+
+The seller states that the product was installed according to the manufacturer's instructions.
+
+The manufacturer says that water quality depends on the source water and maintenance conditions.
+
+The manufacturer claims that the filters may require replacement.
+
+AVAILABLE DOCUMENTS:
+
+1. Purchase invoice: Present
+2. Warranty document: Present
+3. Advertisement screenshot: Present
+4. Complaint notice: Present
+5. Merchant reply: Present
+6. Independent water quality test: Missing
+7. Filter maintenance record: Unclear
+
+PLANTED ISSUES FOR REVIEW:
+
+- No laboratory report establishes the quality of the filtered water.
+- The claimant's interpretation of the advertisement may be broader than its actual wording.
+- The maintenance history is incomplete.
+
+EXPECTED REVIEW:
+
+Identify the missing water quality test and unclear maintenance record. Separate advertising claims from the evidence of actual product performance.
+
+IMPORTANT:
+This is a fictional case created for NyayaSim testing. No final legal finding is assumed.

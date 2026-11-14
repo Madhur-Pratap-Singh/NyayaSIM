@@ -1,0 +1,99 @@
+
+NYAYASIM - FICTIONAL CONSUMER CASE
+
+CASE ID: CASE_001
+
+CASE TITLE: Defective Washing Machine Purchased by a Consumer
+
+CASE CATEGORY: Product Defect
+
+CASE TYPE: Clean Consumer Dispute
+
+CASE STATUS: Ready for Preliminary Review
+
+1. PARTIES INVOLVED
+
+Complainant:
+Name: Aarav Sharma
+Role: Consumer
+Address: Fictional Address, Chandigarh, India
+
+Respondent:
+Name: BrightHome Electronics
+Role: Seller of the Washing Machine
+Address: Fictional Business Address, Chandigarh, India
+
+Manufacturer:
+Name: HomeTech Appliances Ltd.
+Role: Manufacturer of the Washing Machine
+
+2. FACTUAL BACKGROUND
+
+On 10 January 2026, Aarav Sharma purchased a washing machine from BrightHome Electronics for Rs. 28,000.
+
+The seller provided a purchase invoice and a two-year warranty document.
+
+Within fifteen days of purchase, the washing machine started making unusual noises and stopped completing its washing cycles.
+
+The consumer contacted the seller and reported the problem.
+
+A service technician inspected the machine and confirmed that a motor-related defect required repair.
+
+The consumer requested a replacement or refund.
+
+The seller replied that the issue would be examined under the applicable warranty conditions.
+
+3. CLAIM OF THE CONSUMER
+
+The consumer claims that:
+
+- The washing machine developed a defect shortly after purchase.
+- The product did not perform as expected.
+- The seller was informed about the problem.
+- The consumer wants an appropriate remedy under applicable consumer protection law.
+
+4. DOCUMENTS AVAILABLE
+
+1. Original Purchase Invoice: Present
+2. Warranty Document: Present
+3. Defect Complaint Notice: Present
+4. Merchant Reply: Present
+5. Service Inspection Report: Present
+
+5. DOCUMENT VERIFICATION
+
+All four documents mentioned in the standard NyayaSim checklist are available in this fictional case.
+
+The documents must still be examined for authenticity, relevance and consistency.
+
+6. RESPONDENT'S POSITION
+
+The seller states that the product was sold in working condition.
+
+The seller also states that the consumer's complaint was received and that the matter was referred for technical inspection.
+
+The seller has not admitted legal liability.
+
+7. ISSUES FOR PRELIMINARY REVIEW
+
+- Whether the product had a defect.
+- Whether the defect existed at the relevant time.
+- Whether the available documents support the consumer's statements.
+- Whether the seller or manufacturer may have any liability under applicable law.
+
+8. EXPECTED DOCUMENT CHECKLIST
+
+Receipt or Purchase Invoice: Present
+Warranty or Guarantee Document: Present
+Defect Notice: Present
+Merchant Reply: Present
+
+9. IMPORTANT NOTES
+
+This is a completely fictional case created for academic testing of NyayaSim.
+
+No real individual or business is involved.
+
+The facts are not a judicial finding.
+
+No final legal conclusion or resolution should be generated solely from this case description.

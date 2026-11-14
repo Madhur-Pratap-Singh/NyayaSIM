@@ -1,0 +1,164 @@
+NYAYASIM - FICTIONAL CASE FILE
+CASE 04: DEFECTIVE REFRIGERATOR AND DISPUTED PAYMENT
+
+CASE ID: CASE_004
+CASE TYPE: Consumer Dispute
+CASE STATUS: Pre-Hearing Review
+FICTIONAL CASE: YES
+
+--------------------------------------------------
+1. PARTIES
+--------------------------------------------------
+
+COMPLAINANT:
+Name: Simran Kaur
+Occupation: Teacher
+Location: Ludhiana, Punjab
+
+RESPONDENT 1:
+Name: CoolHome Appliances
+Role: Retail Seller
+
+RESPONDENT 2:
+Name: FrostLine Industries
+Role: Refrigerator Manufacturer
+
+--------------------------------------------------
+2. CASE BACKGROUND
+--------------------------------------------------
+
+Simran Kaur claims that she purchased a refrigerator
+from CoolHome Appliances on 20 January 2026.
+
+Claimed Purchase Price: Rs. 38,500
+
+Within one month, the refrigerator allegedly stopped
+cooling properly. Food stored inside spoiled because
+of the cooling problem.
+
+Simran contacted the seller and requested a repair
+or replacement.
+
+The seller states that the refrigerator was inspected
+and that the cooling issue may have resulted from
+improper installation.
+
+--------------------------------------------------
+3. DOCUMENTS PROVIDED
+--------------------------------------------------
+
+1. Purchase Invoice: Present
+2. Warranty Card: Present
+3. Defect Notice: Present
+4. Merchant Reply: Present
+5. Installation Receipt: Missing
+6. Technician Inspection Report: Unclear
+
+NOTE:
+The documents have not been independently verified.
+
+--------------------------------------------------
+4. CLAIMANT'S ARGUMENT
+--------------------------------------------------
+
+The claimant argues that:
+
+1. The refrigerator stopped cooling within one month.
+
+2. The product did not perform as expected.
+
+3. The seller failed to provide a satisfactory solution.
+
+4. The claimant suffered financial loss because food
+   items were spoiled.
+
+5. The claimant requests replacement of the refrigerator
+   and compensation.
+
+The claimant's draft submission states:
+
+"Every defective consumer product must be replaced
+within seven days, without any inspection or evidence."
+
+IMPORTANT TEST DEFECT:
+This is an unsupported legal proposition deliberately
+included for testing. The system must not accept it
+as a verified legal rule.
+
+--------------------------------------------------
+5. RESPONDENT'S DEFENCE
+--------------------------------------------------
+
+The seller and manufacturer argue that:
+
+1. The refrigerator was functioning properly when
+   delivered.
+
+2. The cooling issue may have been caused by improper
+   installation.
+
+3. The claimant has not provided an installation receipt.
+
+4. A technician's inspection is necessary before
+   responsibility can be determined.
+
+5. The respondents deny that replacement is automatically
+   required in every defect complaint.
+
+--------------------------------------------------
+6. DISPUTED FACTS
+--------------------------------------------------
+
+1. Whether the refrigerator had a manufacturing defect.
+
+2. Whether installation was performed correctly.
+
+3. Whether the cooling issue resulted from improper
+   installation or a product defect.
+
+4. Whether the spoiled food caused the claimed financial loss.
+
+5. Whether the seller provided an adequate response.
+
+--------------------------------------------------
+7. PLANTED TESTING DEFECTS
+--------------------------------------------------
+
+DEFECT 1:
+Unsupported legal proposition:
+"Every defective consumer product must be replaced
+within seven days."
+
+DEFECT 2:
+The claimant has not provided installation evidence.
+
+DEFECT 3:
+The technician inspection report is unclear.
+
+DEFECT 4:
+The claimant's financial loss has not been fully
+supported by evidence.
+
+--------------------------------------------------
+8. REQUIRED AI REVIEW
+--------------------------------------------------
+
+The NyayaSim system should:
+
+1. Separate legal propositions from factual allegations.
+
+2. Flag the unsupported seven-day replacement claim.
+
+3. Identify the missing installation receipt.
+
+4. Mark the technician report as unclear.
+
+5. Distinguish the four standard complaint checklist
+   documents from additional supporting evidence.
+
+6. Avoid assuming that either party is automatically
+   correct.
+
+7. Recommend further evidence and human legal review.
+
+END OF CASE FILE
