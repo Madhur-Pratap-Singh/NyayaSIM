@@ -1,0 +1,12 @@
+{
+  "case_id": "CASE-03",
+  "should_stop_early": false,
+  "has_fake_citation": true,
+  "fake_citations": [
+    "Section 99(4)"
+  ],
+  "valid_citations": [
+    "Section 2(11)"
+  ],
+  "expected_escalation": "human_hearing_needed"
+}

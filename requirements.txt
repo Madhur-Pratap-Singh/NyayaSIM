@@ -4,3 +4,7 @@ requests>=2.31.0
 pytest>=8.0.0
 reportlab>=4.0.0
 pillow>=10.0.0
+fastapi>=0.115.0
+uvicorn>=0.30.0
+sse-starlette>=2.1.0
+

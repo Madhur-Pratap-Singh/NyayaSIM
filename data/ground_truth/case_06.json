@@ -1,0 +1,9 @@
+{
+  "case_id": "CASE-06",
+  "should_stop_early": true,
+  "is_consumer": false,
+  "missing_items": [
+    "consumer_status_verification"
+  ],
+  "expected_escalation": "human_hearing_needed"
+}

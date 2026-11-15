@@ -1,0 +1,10 @@
+{
+  "case_id": "CASE-01",
+  "should_stop_early": false,
+  "missing_items": [],
+  "critical_defects": [],
+  "facts_undisputed": true,
+  "documents_complete": true,
+  "expected_escalation": "proposed_resolution",
+  "expected_winner": "claimant"
+}

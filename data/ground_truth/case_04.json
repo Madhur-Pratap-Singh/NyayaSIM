@@ -1,0 +1,7 @@
+{
+  "case_id": "CASE-04",
+  "should_stop_early": false,
+  "facts_undisputed": false,
+  "documents_complete": true,
+  "expected_escalation": "human_hearing_needed"
+}

@@ -1,0 +1,215 @@
+{
+  "corpus_name": "Consumer Protection Act, 2019 (Act No. 35 of 2019)",
+  "enacted_by": "Parliament of India",
+  "total_units": 26,
+  "units": [
+    {
+      "unit_id": "CPA-2019-SEC-2-1",
+      "section": "Section 2(1)",
+      "title": "Definition of Advertisement",
+      "chapter": "Chapter I - Preliminary",
+      "text": "advertisement means any audio or visual publicity, representation, endorsement or pronouncement made by means of light, sound, smoke, gas, print, electronic media, internet or website and includes any notice, circular, label, wrapper, invoice or such other documents.",
+      "keywords": ["advertisement", "publicity", "endorsement", "representation", "electronic media"]
+    },
+    {
+      "unit_id": "CPA-2019-SEC-2-7",
+      "section": "Section 2(7)",
+      "title": "Definition of Consumer",
+      "chapter": "Chapter I - Preliminary",
+      "text": "consumer means any person who buys any goods for a consideration which has been paid or promised or partly paid and partly promised, or under any system of deferred payment... but does not include a person who obtains such goods for resale or for any commercial purpose. Explanation: commercial purpose does not include use by a person of goods bought and used by him exclusively for the purposes of earning his livelihood by means of self-employment.",
+      "keywords": ["consumer", "consideration", "resale", "commercial purpose", "self-employment", "livelihood"]
+    },
+    {
+      "unit_id": "CPA-2019-SEC-2-9",
+      "section": "Section 2(9)",
+      "title": "Consumer Rights",
+      "chapter": "Chapter I - Preliminary",
+      "text": "consumer rights includes the right to be protected against the marketing of goods, products or services which are hazardous to life and property; the right to be informed about the quality, quantity, potency, purity, standard and price of goods, products or services; the right to be assured access to a variety of goods, products or services at competitive prices; the right to be heard and to be assured that consumer interests will receive due consideration; the right to seek redressal against unfair trade practice or restrictive trade practices or unscrupulous exploitation; and the right to consumer awareness.",
+      "keywords": ["consumer rights", "hazardous", "informed", "quality", "redressal", "awareness"]
+    },
+    {
+      "unit_id": "CPA-2019-SEC-2-10",
+      "section": "Section 2(10)",
+      "title": "Definition of Defect",
+      "chapter": "Chapter I - Preliminary",
+      "text": "defect means any fault, imperfection or shortcoming in the quality, quantity, potency, purity or standard which is required to be maintained by or under any law for the time being in force or under any contract, express or implied or as is claimed by the trader in any manner whatsoever in relation to any goods or product and the expression defective shall be construed accordingly.",
+      "keywords": ["defect", "fault", "imperfection", "shortcoming", "quality", "standard", "goods", "product"]
+    },
+    {
+      "unit_id": "CPA-2019-SEC-2-11",
+      "section": "Section 2(11)",
+      "title": "Definition of Deficiency",
+      "chapter": "Chapter I - Preliminary",
+      "text": "deficiency means any fault, imperfection, shortcoming or inadequacy in the quality, nature and manner of performance which is required to be maintained by or under any law for the time being in force or has been undertaken to be performed by a person in pursuance of a contract or otherwise in relation to any service and includes any act of negligence or omission or commission by such person which causes loss or injury to the consumer; and deliberate withholding of relevant information by such person to the consumer.",
+      "keywords": ["deficiency", "service", "performance", "negligence", "omission", "withholding information"]
+    },
+    {
+      "unit_id": "CPA-2019-SEC-2-28",
+      "section": "Section 2(28)",
+      "title": "Misleading Advertisement",
+      "chapter": "Chapter I - Preliminary",
+      "text": "misleading advertisement in relation to any product or service, means an advertisement, which falsely describes such product or service; or gives a false guarantee to, or is likely to mislead the consumers as to the nature, substance, quantity or quality of such product or service; or conveys an express or implied representation which, if made by the manufacturer or seller or service provider thereof, would constitute an unfair trade practice; or deliberately conceals important information.",
+      "keywords": ["misleading advertisement", "false guarantee", "deception", "unfair trade practice"]
+    },
+    {
+      "unit_id": "CPA-2019-SEC-2-34",
+      "section": "Section 2(34)",
+      "title": "Definition of Product Liability",
+      "chapter": "Chapter I - Preliminary",
+      "text": "product liability means the responsibility of a product manufacturer or product seller, of any product or service, to compensate for any harm caused to a consumer by such defective product manufactured or sold or by deficiency in services relating thereto.",
+      "keywords": ["product liability", "manufacturer", "harm", "defective product", "compensate"]
+    },
+    {
+      "unit_id": "CPA-2019-SEC-2-35",
+      "section": "Section 2(35)",
+      "title": "Product Liability Action",
+      "chapter": "Chapter I - Preliminary",
+      "text": "product liability action means a complaint filed by a person before a District Commission or State Commission or National Commission for claiming compensation for the harm caused to him.",
+      "keywords": ["product liability action", "complaint", "compensation", "harm"]
+    },
+    {
+      "unit_id": "CPA-2019-SEC-2-41",
+      "section": "Section 2(41)",
+      "title": "Restrictive Trade Practice",
+      "chapter": "Chapter I - Preliminary",
+      "text": "restrictive trade practice means a trade practice which tends to bring about manipulation of price or its conditions of delivery or to affect flow of supplies in the market relating to goods or services in such a manner as to impose on the consumers unjustified costs or restrictions.",
+      "keywords": ["restrictive trade practice", "price manipulation", "supply flow", "unjustified costs"]
+    },
+    {
+      "unit_id": "CPA-2019-SEC-2-47",
+      "section": "Section 2(47)",
+      "title": "Unfair Trade Practice",
+      "chapter": "Chapter I - Preliminary",
+      "text": "unfair trade practice means a trade practice which, for the purpose of promoting the sale, use or supply of any goods or for the provision of any service, adopts any unfair method or unfair or deceptive practice including falsely representing that goods are of a particular standard, quality, quantity, grade, composition, style or model; falsely representing that the services are of a particular standard, quality or grade; refusing to issue bill or cash memo; refusing to take back defective goods or refund consideration within the period stipulated.",
+      "keywords": ["unfair trade practice", "deceptive practice", "false representation", "cash memo", "refund refusal"]
+    },
+    {
+      "unit_id": "CPA-2019-SEC-34",
+      "section": "Section 34",
+      "title": "Jurisdiction of District Commission",
+      "chapter": "Chapter IV - Consumer Disputes Redressal Commission",
+      "text": "Subject to the other provisions of this Act, the District Commission shall have jurisdiction to entertain complaints where the value of the goods or services paid as consideration does not exceed fifty lakh rupees (as revised by rules). A complaint shall be instituted in a District Commission within the local limits of whose jurisdiction the opposite party resides or carries on business, or where the cause of action, wholly or in part, arises, or where the complainant resides or personally works for gain.",
+      "keywords": ["jurisdiction", "district commission", "pecuniary jurisdiction", "territorial jurisdiction", "cause of action"]
+    },
+    {
+      "unit_id": "CPA-2019-SEC-35",
+      "section": "Section 35",
+      "title": "Manner in which Complaint shall be made",
+      "chapter": "Chapter IV - Consumer Disputes Redressal Commission",
+      "text": "A complaint, in relation to any goods sold or delivered or agreed to be sold or delivered or any service provided or agreed to be provided, may be filed with a District Commission by the consumer to whom such goods are sold or delivered or such service is provided; any recognized consumer association; one or more consumers having the same interest; or the Central Government, Central Authority or State Government. Every complaint shall be accompanied with such fee and specified documents.",
+      "keywords": ["complaint", "filing", "consumer", "district commission", "pleadings", "documents"]
+    },
+    {
+      "unit_id": "CPA-2019-SEC-36",
+      "section": "Section 36",
+      "title": "Proceedings before District Commission",
+      "chapter": "Chapter IV - Consumer Disputes Redressal Commission",
+      "text": "On receipt of a complaint, the District Commission may, by order, admit the complaint or reject the same: Provided that no complaint shall be rejected under this sub-section unless an opportunity of being heard has been given to the complainant. The admissibility of the complaint shall ordinarily be decided within twenty-one days from the date on which the complaint was filed.",
+      "keywords": ["proceedings", "admission", "rejection", "admissibility", "twenty-one days"]
+    },
+    {
+      "unit_id": "CPA-2019-SEC-38",
+      "section": "Section 38",
+      "title": "Procedure on Admission of Complaint",
+      "chapter": "Chapter IV - Consumer Disputes Redressal Commission",
+      "text": "Where the complaint alleges a defect in goods which cannot be determined without proper analysis or test of the goods, the District Commission shall obtain a sample of the goods from the complainant and refer it to such appropriate laboratory for an analysis or test with a direction that such laboratory report its finding within forty-five days.",
+      "keywords": ["procedure", "test", "laboratory", "expert analysis", "sample", "forty-five days"]
+    },
+    {
+      "unit_id": "CPA-2019-SEC-39",
+      "section": "Section 39",
+      "title": "Findings of District Commission and Reliefs",
+      "chapter": "Chapter IV - Consumer Disputes Redressal Commission",
+      "text": "Where the District Commission is satisfied that the goods complained against suffer from any of the defects or that any of the allegations contained in the complaint about the services are proved, it shall issue an order to the opposite party directing him to: remove the defect pointed out; replace the goods with new goods of similar description which shall be free from any defect; return to the complainant the price or consideration paid; pay such amount as may be awarded by it as compensation to the consumer for any loss or injury suffered by the consumer due to the negligence of the opposite party.",
+      "keywords": ["relief", "order", "replace", "refund", "compensation", "remove defect", "damages"]
+    },
+    {
+      "unit_id": "CPA-2019-SEC-40",
+      "section": "Section 40",
+      "title": "Review by District Commission",
+      "chapter": "Chapter IV - Consumer Disputes Redressal Commission",
+      "text": "The District Commission shall have the power to review any of the order passed by it if there is an error apparent on the face of the record, either of its own motion or on an application made by any of the parties within thirty days of such order.",
+      "keywords": ["review", "error apparent", "thirty days", "reconsideration"]
+    },
+    {
+      "unit_id": "CPA-2019-SEC-41",
+      "section": "Section 41",
+      "title": "Appeal against Order of District Commission",
+      "chapter": "Chapter IV - Consumer Disputes Redressal Commission",
+      "text": "Any person aggrieved by an order made by the District Commission may prefer an appeal against such order to the State Commission on the grounds of facts or law within a period of forty-five days from the date of the order.",
+      "keywords": ["appeal", "state commission", "forty-five days", "appellate jurisdiction"]
+    },
+    {
+      "unit_id": "CPA-2019-SEC-47",
+      "section": "Section 47",
+      "title": "Jurisdiction of State Commission",
+      "chapter": "Chapter IV - Consumer Disputes Redressal Commission",
+      "text": "Subject to the provisions of this Act, the State Commission shall have jurisdiction to entertain complaints where the value of the goods or services paid as consideration exceeds fifty lakh rupees but does not exceed two crore rupees.",
+      "keywords": ["state commission", "pecuniary jurisdiction", "consideration threshold"]
+    },
+    {
+      "unit_id": "CPA-2019-SEC-58",
+      "section": "Section 58",
+      "title": "Jurisdiction of National Commission",
+      "chapter": "Chapter IV - Consumer Disputes Redressal Commission",
+      "text": "Subject to the other provisions of this Act, the National Commission shall have jurisdiction to entertain complaints where the value of the goods or services paid as consideration exceeds two crore rupees.",
+      "keywords": ["national commission", "highest pecuniary jurisdiction", "original jurisdiction"]
+    },
+    {
+      "unit_id": "CPA-2019-SEC-69",
+      "section": "Section 69",
+      "title": "Limitation Period",
+      "chapter": "Chapter IV - Consumer Disputes Redressal Commission",
+      "text": "The District Commission, the State Commission or the National Commission shall not admit a complaint unless it is filed within two years from the date on which the cause of action has arisen. Provided that a complaint may be entertained after the period specified if the complainant satisfies the Commission that he had sufficient cause for not filing the complaint within such period, recording reasons for condoning such delay.",
+      "keywords": ["limitation period", "two years", "cause of action", "condonation of delay", "sufficient cause", "time barred"]
+    },
+    {
+      "unit_id": "CPA-2019-SEC-82",
+      "section": "Section 82",
+      "title": "Application of Product Liability Chapter",
+      "chapter": "Chapter VI - Product Liability",
+      "text": "This Chapter shall apply to every action for product liability brought against a product manufacturer, product service provider or product seller for harm caused by a product.",
+      "keywords": ["product liability", "harm caused", "manufacturer", "seller", "service provider"]
+    },
+    {
+      "unit_id": "CPA-2019-SEC-83",
+      "section": "Section 83",
+      "title": "Product Liability Action for Harm",
+      "chapter": "Chapter VI - Product Liability",
+      "text": "A product liability action may be brought by a complainant against a product manufacturer or a product service provider or a product seller, as the case may be, for harm caused to him on account of a defective product.",
+      "keywords": ["product liability action", "harm", "defective product", "injury"]
+    },
+    {
+      "unit_id": "CPA-2019-SEC-84",
+      "section": "Section 84",
+      "title": "Liability of Product Manufacturer",
+      "chapter": "Chapter VI - Product Liability",
+      "text": "A product manufacturer shall be liable in a product liability action, if: (a) the product contains a manufacturing defect; or (b) the product is defective in design; or (c) there is a deviation from manufacturing specifications; or (d) the product does not conform to the express warranty; or (e) the product fails to contain adequate instructions of correct usage to prevent any harm or any warning regarding improper or incorrect usage.",
+      "keywords": ["product manufacturer", "manufacturing defect", "design defect", "express warranty", "warning defect", "specifications deviation"]
+    },
+    {
+      "unit_id": "CPA-2019-SEC-85",
+      "section": "Section 85",
+      "title": "Liability of Product Service Provider",
+      "chapter": "Chapter VI - Product Liability",
+      "text": "A product service provider shall be liable in a product liability action, if: (a) the service provided by him was faulty, imperfect, deficient or inadequate in quality, nature or manner of performance which is required by or under any law for the time being in force, or pursuant to a contract or otherwise; or (b) there was an act of omission or commission or negligence or conscious withholding of any information which caused harm.",
+      "keywords": ["service provider liability", "deficient service", "omission", "negligence", "harm caused"]
+    },
+    {
+      "unit_id": "CPA-2019-SEC-86",
+      "section": "Section 86",
+      "title": "Liability of Product Seller",
+      "chapter": "Chapter VI - Product Liability",
+      "text": "A product seller who is not a product manufacturer shall be liable in a product liability action, if: (a) he has exercised substantial control over the designing, testing, manufacturing, packaging or labelling of a product; or (b) he has altered or modified the product and such alteration or modification was the substantial factor in causing the harm; or (c) he has made an express warranty independent of the manufacturer; or (d) the product was sold by him and identity of product manufacturer of such product is not known.",
+      "keywords": ["product seller liability", "substantial control", "independent warranty", "unknown manufacturer"]
+    },
+    {
+      "unit_id": "CPA-2019-SEC-87",
+      "section": "Section 87",
+      "title": "Exceptions to Product Liability Action",
+      "chapter": "Chapter VI - Product Liability",
+      "text": "A product liability action cannot be brought against the product seller if, at the time of harm, the product was misused, altered, or modified. Further, a product manufacturer shall not be liable for failure to instruct or warn if the product was purchased by an employer for use at the workplace and the employer was given warnings.",
+      "keywords": ["exceptions", "product misuse", "alteration", "modification", "workplace warnings"]
+    }
+  ]
+}

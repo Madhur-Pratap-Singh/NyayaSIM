@@ -1,0 +1,11 @@
+{
+  "case_id": "CASE-05",
+  "should_stop_early": true,
+  "missing_items": [
+    "limitation_compliance"
+  ],
+  "critical_defects": [
+    "Limitation Compliance (Section 69 CPA 2019)"
+  ],
+  "expected_escalation": "human_hearing_needed"
+}

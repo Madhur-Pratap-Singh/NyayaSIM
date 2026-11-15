@@ -260,7 +260,7 @@ class GeminiModelGateway(ModelGateway):
 
         # Strip any leading 'models/' if present
         cleaned_model = model_name.replace("models/", "")
-        candidate_models = [cleaned_model, "gemini-3.5-flash-lite", "gemini-3.7-flash", "gemini-3.8-flash", "gemini-flash-lite-latest"]
+        candidate_models = ["gemini-3.5-flash-lite", "gemini-flash-lite-latest", "gemini-3.1-flash-lite", cleaned_model, "gemini-3.7-flash"]
         # Deduplicate while preserving order
         unique_models = []
         for m in candidate_models:
@@ -318,8 +318,8 @@ class GeminiModelGateway(ModelGateway):
                     raise ValueError(f"Empty candidate text returned by Gemini: {result}")
                 elif resp.status_code in [429, 503]:
                     err_text = resp.text.lower()
-                    if "exceeded your current quota" in err_text or "resource_exhausted" in err_text:
-                        print(f"  [Model {active_model} daily quota exhausted. Auto-failing over to next available model...]")
+                    if resp.status_code == 503 or "temporarily" in err_text or "high demand" in err_text or "exceeded your current quota" in err_text or "resource_exhausted" in err_text:
+                        print(f"  [Model {active_model} returned {resp.status_code} ({'high demand/503' if resp.status_code == 503 else 'quota'}). Auto-failing over to next candidate...]")
                         quota_exhausted_for_this_model = True
                         break  # Break attempt loop to try next model in unique_models!
                     else:

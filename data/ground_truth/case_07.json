@@ -1,0 +1,7 @@
+{
+  "case_id": "CASE-07",
+  "should_stop_early": false,
+  "is_product_liability": true,
+  "documents_complete": true,
+  "expected_escalation": "proposed_resolution"
+}

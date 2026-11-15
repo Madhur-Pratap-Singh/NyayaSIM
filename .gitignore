@@ -25,3 +25,20 @@ local_runs/
 .idea/
 .DS_Store
 Thumbs.db
+
+# RenPy build, save, and cache files
+renpy/**/saves/
+renpy/**/cache/
+renpy/**/*.rpyc
+renpy/**/*.rpyb
+renpy/**/*.py3analysis
+renpy/**/log.txt
+renpy/**/traceback.txt
+
+# Node.js dependencies and build outputs
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+.env
+*.env

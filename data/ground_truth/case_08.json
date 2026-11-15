@@ -1,0 +1,6 @@
+{
+  "case_id": "CASE-08",
+  "should_stop_early": false,
+  "documents_complete": true,
+  "expected_escalation": "proposed_resolution"
+}

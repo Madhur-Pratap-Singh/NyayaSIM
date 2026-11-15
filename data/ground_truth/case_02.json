@@ -1,0 +1,13 @@
+{
+  "case_id": "CASE-02",
+  "should_stop_early": true,
+  "missing_items": [
+    "proof_of_purchase"
+  ],
+  "critical_defects": [
+    "Proof of Purchase / Tax Invoice"
+  ],
+  "facts_undisputed": false,
+  "documents_complete": false,
+  "expected_escalation": "human_hearing_needed"
+}
