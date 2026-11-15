@@ -181,22 +181,40 @@ init -1 python:
         if not api_key:
             return generate_offline_simulation(case_text)
 
-        # Try models in order with requests / urllib
+        # 1. Primary method: renpy.fetch()
+        # renpy.fetch is the official Ren'Py HTTP client with full native support for
+        # WebAssembly / Emscripten (browser JavaScript fetch) and Desktop (threaded requests)
         for model in GEMINI_MODELS:
             url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
             try:
-                try:
-                    import requests
-                    resp = requests.post(url, json=payload_dict, headers={"Content-Type": "application/json"}, timeout=25)
-                    if resp.status_code == 200:
-                        raw_json = resp.json()["candidates"][0]["content"]["parts"][0]["text"]
+                if hasattr(renpy, "fetch"):
+                    resp_json = renpy.fetch(url, json=payload_dict, result="json", timeout=25)
+                    if resp_json and "candidates" in resp_json:
+                        raw_json = resp_json["candidates"][0]["content"]["parts"][0]["text"]
                         data = json.loads(raw_json)
                         data["status"] = "ok"
                         return data
-                except Exception:
-                    pass
+            except Exception:
+                pass
 
-                # Fallback to urllib.request
+        # 2. Secondary fallback for desktop: requests
+        for model in GEMINI_MODELS:
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
+            try:
+                import requests
+                resp = requests.post(url, json=payload_dict, headers={"Content-Type": "application/json"}, timeout=25)
+                if resp.status_code == 200:
+                    raw_json = resp.json()["candidates"][0]["content"]["parts"][0]["text"]
+                    data = json.loads(raw_json)
+                    data["status"] = "ok"
+                    return data
+            except Exception:
+                pass
+
+        # 3. Tertiary fallback for desktop: urllib.request
+        for model in GEMINI_MODELS:
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
+            try:
                 payload_bytes = json.dumps(payload_dict).encode("utf-8")
                 req = urllib.request.Request(url, data=payload_bytes, headers={"Content-Type": "application/json", "User-Agent": "NyayaSim"})
                 with urllib.request.urlopen(req, timeout=25) as r:
@@ -212,55 +230,83 @@ init -1 python:
         return generate_offline_simulation(case_text)
 
     def generate_offline_simulation(case_text):
-        """Intelligent offline legal simulation fallback when internet is completely disconnected."""
-        snippet = case_text[:120].strip() if case_text else "Consumer product failure"
+        """Intelligent case-specific offline simulation fallback when network is completely disconnected."""
+        import re
+
+        text = case_text.strip() if case_text else "Consumer product failure"
+        lower_text = text.lower()
+
+        # Extract price / consideration if mentioned
+        price_match = re.search(r'(?:rs\.?|inr|\u20b9)\s*([0-9,]+)', text, re.IGNORECASE)
+        price_str = f"Rs. {price_match.group(1)}/-" if price_match else "the full consideration amount"
+
+        # Detect product type
+        product = "subject product"
+        for candidate in ["laptop", "smartphone", "phone", "refrigerator", "fridge", "air conditioner", "ac", "television", "tv", "washing machine", "vehicle", "car", "bike", "watch", "camera", "microwave", "tablet"]:
+            if candidate in lower_text:
+                product = candidate.title()
+                break
+
+        # Detect defect nature
+        defect_desc = "inherent manufacturing defect and performance failure"
+        if "heat" in lower_text or "thermal" in lower_text:
+            defect_desc = "continuous thermal overheating and automatic motherboard shutdowns"
+        elif "battery" in lower_text or "swollen" in lower_text:
+            defect_desc = "critical battery failure and hazardous battery swelling"
+        elif "leak" in lower_text or "gas" in lower_text:
+            defect_desc = "refrigerant coil gas leakage and total cooling failure"
+        elif "screen" in lower_text or "display" in lower_text:
+            defect_desc = "blank display and recurring screen flickering defect"
+        elif "water" in lower_text or "liquid" in lower_text:
+            defect_desc = "liquid ingress and internal component malfunction"
+
         return {
             "status": "ok",
             "dialogues": [
                 {
                     "character": "clerk",
                     "speaker": "Peshkar / Court Clerk",
-                    "text": "Calling Matter No. CC-2024-CUST-901 before the District Consumer Commission."
+                    "text": f"Calling Matter No. CC-2024-CUST-882: Dispute regarding defective {product} under Section 35 Consumer Protection Act 2019."
                 },
                 {
                     "character": "judge",
                     "speaker": "Chief Judge (Textualist)",
-                    "text": f"The Commission has examined the petition on record: '{snippet}...'. Counsel for Complainant, state your prayer."
+                    "text": f"The Commission has perused the complaint on record regarding the {product} purchased for {price_str}. Counsel Sharma, establish statutory standing."
                 },
                 {
                     "character": "claimant",
                     "speaker": "Adv. Rajesh Sharma (Complainant)",
-                    "text": "Much obliged, Your Honour. Under Section 2(7) of the Consumer Protection Act, my client is a bona fide consumer who paid consideration. The product failed during warranty."
+                    "text": f"Much obliged, Your Honour. Under Section 2(7) of the Consumer Protection Act, my client purchased the {product} for {price_str}. Within days, the unit suffered {defect_desc}."
                 },
                 {
                     "character": "respondent",
                     "speaker": "Adv. Sunita Mehta (Respondent)",
-                    "text": "Objection, Your Honour! The respondent company is only liable for standard repair inspection under retailer terms and conditions."
+                    "text": f"Objection, Your Honour! The respondent company is not liable for replacement. The complainant refused our authorized service center's offer of part replacement."
                 },
                 {
                     "character": "claimant",
                     "speaker": "Adv. Rajesh Sharma (Complainant)",
-                    "text": "Point of law! Under Section 39(1)(b), a consumer cannot be forced to accept repeated patchwork repairs on a newly purchased defective article."
+                    "text": f"Point of law, Your Honour! Under Section 39(1)(b), a consumer paying hard-earned money cannot be compelled to accept a repaired or refurbished {product} when it failed during initial warranty!"
                 },
                 {
                     "character": "judge",
                     "speaker": "Chief Judge (Textualist)",
-                    "text": "Failure within statutory warranty raises a prima facie presumption of defect under Section 2(10). Counsel Mehta, produce your technical job sheets."
+                    "text": f"Section 2(10) defines defect as any fault or shortcoming in quality or performance. The technical evidence on record supports {defect_desc}. Counsel Mehta, your objection is overruled."
                 },
                 {
                     "character": "respondent",
                     "speaker": "Adv. Sunita Mehta (Respondent)",
-                    "text": "The respondent respectfully submits that we offered technical troubleshooting, but the complainant insisted on an immediate refund."
+                    "text": "The Opposite Party maintains that our warranty terms limit remedy to technical inspection, but we bow to the Commission's jurisdiction."
                 },
                 {
                     "character": "judge",
                     "speaker": "Chief Judge (Textualist)",
-                    "text": "Statutory consumer rights override internal seller policies. The Bench is ready to pronounce its order."
+                    "text": "Contractual disclaimers cannot override statutory consumer safeguards under the 2019 Act. The Bench will now pass final orders under Section 39."
                 }
             ],
             "verdict": {
                 "escalation": {"decision": "ORDER FOR COMPLAINANT"},
-                "majority_decision": "The Commission holds that manufacturing defect stands proved under Section 2(10). Under Section 39(1)(a) & (b), the Opposite Party is directed to refund the purchase amount along with 9% interest p.a. and Rs. 15,000/- as compensation."
+                "majority_decision": f"The Commission finds established manufacturing defect under Section 2(10) regarding the {product}. Under Section 39(1)(a) & (b), the Opposite Party is directed to refund {price_str} with 9% interest p.a. from filing date, and pay Rs. 15,000/- as compensation for mental harassment and litigation costs."
             }
         }
 
